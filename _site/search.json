@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "title: “Dr. Sonali Sharma” subtitle: “Geospatial Analyst | Remote Sensing | Urban Forest Analytics” —\nI turn raw spatial data into decisions — individual trees from point clouds, carbon stocks from allometric equations, urban growth from satellite time series. Seven years of international research across India, Germany, and Finland have given me hands-on experience spanning LiDAR processing, high-resolution land cover mapping, machine learning, ecosystem service modelling, and reproducible geospatial workflows at city and regional scale.\nI am open to GIS consultancy, remote sensing, environmental planning, and research roles — and always interested in collaborative projects where spatial analysis can drive decision-making and real-world impact.\n📧 ssonalipduoh@gmail.com  ·  LinkedIn  ·  Download CV"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Home",
+    "section": "Projects",
+    "text": "Projects\n\n🌳 LiDAR and Urban Forest Analytics\nHelsinki open LiDAR · Python · rasterio · laspy · scikit-image\nFully automated pipelines from raw .laz point cloud to individual tree inventories, carbon stock maps, and GeoAI accuracy assessments. Built on open Helsinki City LiDAR data; every step is reproducible.\n\n\n\nNotebook\nDescription\nMethods\n\n\n\n\nUrban tree detection\nAutomated individual tree inventory from raw LiDAR\nCHM, watershed, prominence filter\n\n\nAGB and carbon mapping\nWall-to-wall carbon stock map\nRepola allometrics, IPCC Tier-1\n\n\nGeoAI vs LiDAR urban\nDeep learning height model validation, urban site\nSSL model, R2, residual maps\n\n\nGeoAI vs LiDAR forest\nSame validation for forested site\nBias analysis, spatial error\n\n\n\n\n\n\n🗺️ Land Use / Land Cover and Urban Growth\nArcGIS · QGIS · Google Earth Engine · Python · R\nMulti-temporal LULC mapping and urban growth scenario modelling across cities in the Western Himalaya — integrating climate, land cover, and remote sensing datasets to understand how cities expand and what they displace.\nPublished in Land (2022) and Ecological Indicators (2022).\nNotebooks and maps coming soon\n\n\n\n🌿 Ecosystem Services Mapping\nGEE · Python · R · ArcGIS\nSpatial quantification of soil erosion, flood regulation, urban heat mitigation, and carbon sequestration across urban gradients. Delivered as geospatial model outputs and planning-ready map products in collaboration with municipal and research partners.\nPublished in City and Environment Interactions (2020) and Energy, Ecology and Environment (2020).\nNotebooks and maps coming soon\n\n\n\n🤖 Machine Learning for Urban Green Spaces\nTransfer learning · Python · aerial imagery · Helsinki\nApplied transfer learning to characterise private urban green spaces from high-resolution aerial imagery — distinguishing managed gardens, overgrown plots, and semi-natural patches at city scale. Conducted at the University of Helsinki in collaboration with Stockholm University.\nUnder review in Urban Forestry and Urban Greening.\nCode releasing on paper acceptance"
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Home",
+    "section": "Background",
+    "text": "Background\n\n\n\n\n\n\n\nPostdoctoral researcher\nUniversity of Helsinki, Finland · 2023–2025\n\n\nVisiting researcher\nMartin-Luther-University, Germany · 2020–2021 · DAAD Fellow\n\n\nPhD researcher\nJawaharlal Nehru University, India · 2018–2023\n\n\nPublications\n6 peer-reviewed · 2 under review · 1 in preparation\n\n\n\nToolkit: QGIS · ArcGIS Pro · Google Earth Engine · Python · R · LiDAR · HPC (SLURM) · rasterio · geopandas · scikit-image · laspy · GeoAI · transfer learning\nDomain expertise: Urban forest ecology · Carbon accounting · Ecosystem services · Biodiversity and green infrastructure · Urban growth modelling · Nature-based solutions"
+  },
+  {
+    "objectID": "index.html#lets-work-together",
+    "href": "index.html#lets-work-together",
+    "title": "Home",
+    "section": "Let’s work together",
+    "text": "Let’s work together\nIf you are working on something at the intersection of cities, nature, and spatial data — I would love to hear about it.\n📧 ssonalipduoh@gmail.com  ·  LinkedIn\nThis portfolio is actively growing — new projects added regularly."
+  }
+]

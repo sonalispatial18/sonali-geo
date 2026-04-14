@@ -1,81 +1,90 @@
 ---
-title: "Dr. Sonali Sharma"
-subtitle: "Geospatial Analyst · Remote Sensing · Urban Forest & Environmental Analytics"
+title: "Home"
+format: html
+jupyter: python3
 ---
 
-I turn raw spatial data into decisions — individual trees from point 
-clouds, carbon stocks from allometric equations, urban growth from 
-satellite time series. Seven years of intternational research across India, Germany, 
-and Finland have given me a hands-on experinces that spans LiDAR processing, high resolution land cover map,
-machine learning, ecosystem service modelling, and reproducible 
-geospatial workflows at city and regional scale.
+---
+title: "Dr. Sonali Sharma"
+subtitle: "Geospatial Analyst | Remote Sensing | Urban Forest Analytics"
+---
 
-I am open to **GIS consultancy, remote sensing, environmental planning, 
-and research roles** — and always interested in collaborative projects 
-where spatial analysis can drive decision-making and real world impact.
+I turn raw spatial data into decisions — individual trees from point
+clouds, carbon stocks from allometric equations, urban growth from
+satellite time series. Seven years of international research across India, Germany,
+and Finland have given me hands-on experience spanning LiDAR processing,
+high-resolution land cover mapping, machine learning, ecosystem service
+modelling, and reproducible geospatial workflows at city and regional scale.
+
+I am open to **GIS consultancy, remote sensing, environmental planning,
+and research roles** — and always interested in collaborative projects
+where spatial analysis can drive decision-making and real-world impact.
 
 [📧 ssonalipduoh@gmail.com](mailto:ssonalipduoh@gmail.com) &nbsp;·&nbsp;
-[LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN) &nbsp;·&nbsp;
+[LinkedIn](https://www.linkedin.com/in/sonali-sharma-50220210b/) &nbsp;·&nbsp;
 [Download CV](cv/SonaliSharma_CV.pdf)
 
 ---
 
 ## Projects
 
-### 🌳 LiDAR & Urban Forest Analytics
+### 🌳 LiDAR and Urban Forest Analytics
+
 *Helsinki open LiDAR · Python · rasterio · laspy · scikit-image*
 
-Fully automated pipelines — from raw `.laz` point cloud to individual 
-tree inventories, carbon stock maps, and GeoAI accuracy assessments. 
+Fully automated pipelines from raw `.laz` point cloud to individual
+tree inventories, carbon stock maps, and GeoAI accuracy assessments.
 Built on open Helsinki City LiDAR data; every step is reproducible.
 
-| Notebook | What it does |
-|----------|-------------|
-| [Urban tree detection](notebooks/01_lidar_tree_detection.ipynb) | CHM derivation · watershed crown delineation · per-tree inventory |
-| [AGB & carbon mapping](notebooks/04_agb_carbon_mapping.ipynb) | Repola (2008) allometrics · IPCC Tier-1 carbon stock map |
-| [GeoAI vs LiDAR — urban](notebooks/02_Urban_geoai_vs_lidar_validation.ipynb) | SSL deep learning height model · pixel-level validation · residual maps |
-| [GeoAI vs LiDAR — forest](notebooks/03_Forest_geoai_vs_lidar_validation.ipynb) | Forest site validation · bias analysis · spatial error structure |
-
+| Notebook | Description | Methods |
+|----------|-------------|---------|
+| [Urban tree detection](https://github.com/sonalispatial18/lidar-portfolio/blob/main/notebooks/01_lidar_tree_detection.ipynb) | Automated individual tree inventory from raw LiDAR | CHM, watershed, prominence filter |
+| [AGB and carbon mapping](https://github.com/sonalispatial18/lidar-portfolio/blob/main/notebooks/04_agb_carbon_mapping.ipynb) | Wall-to-wall carbon stock map | Repola allometrics, IPCC Tier-1 |
+| [GeoAI vs LiDAR urban](https://github.com/sonalispatial18/lidar-portfolio/blob/main/notebooks/02_Urban_geoai_vs_lidar_validation.ipynb) | Deep learning height model validation, urban site | SSL model, R2, residual maps |
+| [GeoAI vs LiDAR forest](https://github.com/sonalispatial18/lidar-portfolio/blob/main/notebooks/03_Forest_geoai_vs_lidar_validation.ipynb) | Same validation for forested site | Bias analysis, spatial error |
 ---
 
-### Land Use / Land Cover & Urban Growth
+### 🗺️ Land Use / Land Cover and Urban Growth
+
 *ArcGIS · QGIS · Google Earth Engine · Python · R*
 
-Multi-temporal LULC mapping and urban growth scenario modelling across 
-cities in the Western Himalaya — integrating climate, land cover, and 
-remote sensing datasets to understand how cities expand and what they 
+Multi-temporal LULC mapping and urban growth scenario modelling across
+cities in the Western Himalaya — integrating climate, land cover, and
+remote sensing datasets to understand how cities expand and what they
 displace.
 
 Published in *Land* (2022) and *Ecological Indicators* (2022).
 
-*Notebooks and maps — coming soon*
+*Notebooks and maps coming soon*
 
 ---
 
-### Ecosystem Services Mapping
+### 🌿 Ecosystem Services Mapping
+
 *GEE · Python · R · ArcGIS*
 
-Spatial quantification of soil erosion, flood regulation, urban heat 
-mitigation, and carbon sequestration across urban gradients. Delivered 
-as geospatial model outputs and planning-ready map products in 
+Spatial quantification of soil erosion, flood regulation, urban heat
+mitigation, and carbon sequestration across urban gradients. Delivered
+as geospatial model outputs and planning-ready map products in
 collaboration with municipal and research partners.
 
-Published in *City and Environment Interactions* (2020) and 
+Published in *City and Environment Interactions* (2020) and
 *Energy, Ecology and Environment* (2020).
 
-*Notebooks and maps — coming soon*
+*Notebooks and maps coming soon*
 
 ---
 
-### Machine Learning for Urban Green Spaces
+### 🤖 Machine Learning for Urban Green Spaces
+
 *Transfer learning · Python · aerial imagery · Helsinki*
 
-Applied transfer learning to characterise private urban green spaces 
-from high-resolution aerial imagery — distinguishing managed gardens, 
-overgrown plots, and semi-natural patches at city scale. Conducted at 
+Applied transfer learning to characterise private urban green spaces
+from high-resolution aerial imagery — distinguishing managed gardens,
+overgrown plots, and semi-natural patches at city scale. Conducted at
 the University of Helsinki in collaboration with Stockholm University.
 
-Under review — *Urban Forestry and Urban Greening*.
+Under review in *Urban Forestry and Urban Greening*.
 
 *Code releasing on paper acceptance*
 
@@ -90,22 +99,22 @@ Under review — *Urban Forestry and Urban Greening*.
 | **PhD researcher** | Jawaharlal Nehru University, India · 2018–2023 |
 | **Publications** | 6 peer-reviewed · 2 under review · 1 in preparation |
 
-**Toolkit:** QGIS · ArcGIS Pro · Google Earth Engine · Python · R · 
-LiDAR · HPC (SLURM) · `rasterio` · `geopandas` · `scikit-image` · 
+**Toolkit:** QGIS · ArcGIS Pro · Google Earth Engine · Python · R ·
+LiDAR · HPC (SLURM) · `rasterio` · `geopandas` · `scikit-image` ·
 `laspy` · GeoAI · transfer learning
 
-**Domain expertise:** Urban forest ecology · Carbon accounting · 
-Ecosystem services · Biodiversity & green infrastructure · 
+**Domain expertise:** Urban forest ecology · Carbon accounting ·
+Ecosystem services · Biodiversity and green infrastructure ·
 Urban growth modelling · Nature-based solutions
 
 ---
 
 ## Let's work together
 
-If you are working on something at the intersection of cities, 
+If you are working on something at the intersection of cities,
 nature, and spatial data — I would love to hear about it.
 
 [📧 ssonalipduoh@gmail.com](mailto:ssonalipduoh@gmail.com) &nbsp;·&nbsp;
 [LinkedIn](https://www.linkedin.com/in/sonali-sharma-50220210b/)
 
-*I have just started building this portfolio, hence it is actively growing — new projects will be added as I learn more!!*
+*This portfolio is actively growing — new projects added regularly.*

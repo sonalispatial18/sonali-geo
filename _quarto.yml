@@ -4,32 +4,18 @@ project:
 
 website:
   title: "Dr. Sonali Sharma"
-  description: "LiDAR · Remote Sensing · Urban Forest Analytics · Helsinki"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - text: Projects
-        menu:
-          - href: notebooks/01_lidar_tree_detection.ipynb
-            text: "Urban tree detection"
-          - href: notebooks/02_Urban_geoai_vs_lidar_validation.ipynb
-            text: "GeoAI vs LiDAR — urban"
-          - href: notebooks/03_Forest_geoai_vs_lidar_validation.ipynb
-            text: "GeoAI vs LiDAR — forest"
-          - href: notebooks/04_agb_carbon_mapping.ipynb
-            text: "AGB & carbon mapping"
     right:
       - icon: github
-        href: https://github.com/sonalispatial18
+        href: https://github.com/sonalispatial18/lidar-portfolio
 
 format:
   html:
     theme: cosmo
-    code-fold: true
-    code-tools: true
     toc: true
-    toc-depth: 3
 
 execute:
   freeze: auto
