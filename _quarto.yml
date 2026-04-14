@@ -19,3 +19,6 @@ format:
 
 execute:
   freeze: auto
+  enabled: false
+
+jupyter: false
