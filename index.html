@@ -95,6 +95,48 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-current-work" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Current work</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-current-work">    
+        <li>
+    <a class="dropdown-item" href="https://github.com/sonalispatial18/lidar-portfolio/blob/main/notebooks/01_lidar_tree_detection.ipynb">
+ <span class="dropdown-text">Urban tree detection</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/sonalispatial18/lidar-portfolio/blob/main/notebooks/04_agb_carbon_mapping.ipynb">
+ <span class="dropdown-text">AGB and carbon mapping</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/sonalispatial18/lidar-portfolio/blob/main/notebooks/02_Urban_geoai_vs_lidar_validation.ipynb">
+ <span class="dropdown-text">GeoAI vs LiDAR — urban</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/sonalispatial18/lidar-portfolio/blob/main/notebooks/03_Forest_geoai_vs_lidar_validation.ipynb">
+ <span class="dropdown-text">GeoAI vs LiDAR — forest</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./projects/lulc-himalaya.html">
+ <span class="dropdown-text">LULC change 2002-2021</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/urban-growth-scenarios.html">
+ <span class="dropdown-text">Urban growth scenarios 2040</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/ecosystem-services.html">
+ <span class="dropdown-text">Ecosystem services</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -121,11 +163,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#current-work-lidar-and-geoai" id="toc-current-work-lidar-and-geoai" class="nav-link active" data-scroll-target="#current-work-lidar-and-geoai">Current work — LiDAR and GeoAI</a></li>
   <li><a href="#research-portfolio" id="toc-research-portfolio" class="nav-link" data-scroll-target="#research-portfolio">Research portfolio</a>
   <ul class="collapse">
-  <li><a href="#land-use-land-cover-and-urban-growth-western-himalaya" id="toc-land-use-land-cover-and-urban-growth-western-himalaya" class="nav-link" data-scroll-target="#land-use-land-cover-and-urban-growth-western-himalaya">Land use / land cover and urban growth — Western Himalaya</a></li>
-  <li><a href="#ecosystem-services-mapping" id="toc-ecosystem-services-mapping" class="nav-link" data-scroll-target="#ecosystem-services-mapping">Ecosystem services mapping</a></li>
-  <li><a href="#urban-heat-island-and-thermal-comfort" id="toc-urban-heat-island-and-thermal-comfort" class="nav-link" data-scroll-target="#urban-heat-island-and-thermal-comfort">Urban heat island and thermal comfort</a></li>
-  <li><a href="#d-urban-typologies-and-biodiversity-helsinki" id="toc-d-urban-typologies-and-biodiversity-helsinki" class="nav-link" data-scroll-target="#d-urban-typologies-and-biodiversity-helsinki">3D urban typologies and biodiversity — Helsinki</a></li>
-  <li><a href="#machine-learning-for-urban-green-spaces" id="toc-machine-learning-for-urban-green-spaces" class="nav-link" data-scroll-target="#machine-learning-for-urban-green-spaces">Machine learning for urban green spaces</a></li>
+  <li><a href="#lulc-change-western-himalaya-20022021" id="toc-lulc-change-western-himalaya-20022021" class="nav-link" data-scroll-target="#lulc-change-western-himalaya-20022021">🗺️ LULC change — Western Himalaya (2002–2021)</a></li>
+  <li><a href="#urban-growth-scenarios-2040" id="toc-urban-growth-scenarios-2040" class="nav-link" data-scroll-target="#urban-growth-scenarios-2040">🌄 Urban growth scenarios 2040</a></li>
+  <li><a href="#ecosystem-services-mapping" id="toc-ecosystem-services-mapping" class="nav-link" data-scroll-target="#ecosystem-services-mapping">🌿 Ecosystem services mapping</a></li>
+  <li><a href="#urban-heat-island-and-thermal-comfort" id="toc-urban-heat-island-and-thermal-comfort" class="nav-link" data-scroll-target="#urban-heat-island-and-thermal-comfort">🌡️ Urban heat island and thermal comfort</a></li>
+  <li><a href="#d-urban-typologies-and-biodiversity-helsinki" id="toc-d-urban-typologies-and-biodiversity-helsinki" class="nav-link" data-scroll-target="#d-urban-typologies-and-biodiversity-helsinki">🏙️ 3D urban typologies and biodiversity — Helsinki</a></li>
+  <li><a href="#machine-learning-for-urban-green-spaces" id="toc-machine-learning-for-urban-green-spaces" class="nav-link" data-scroll-target="#machine-learning-for-urban-green-spaces">🤖 Machine learning for urban green spaces</a></li>
   </ul></li>
   <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
   <li><a href="#lets-work-together" id="toc-lets-work-together" class="nav-link" data-scroll-target="#lets-work-together">Let’s work together</a></li>
@@ -199,40 +242,46 @@ ul.task-list li input[type="checkbox"] {
 <section id="research-portfolio" class="level2">
 <h2 class="anchored" data-anchor-id="research-portfolio">Research portfolio</h2>
 <p><em>Published work from PhD and postdoctoral research</em></p>
-<p>Full project descriptions, maps, and figures are on my <a href="https://sites.google.com/view/sonali-geo/projects">research website</a>.</p>
-<section id="land-use-land-cover-and-urban-growth-western-himalaya" class="level3">
-<h3 class="anchored" data-anchor-id="land-use-land-cover-and-urban-growth-western-himalaya">Land use / land cover and urban growth — Western Himalaya</h3>
-<p><em>ArcGIS · QGIS · Google Earth Engine · IDRISI · Python · R</em></p>
-<p>Multi-temporal LULC mapping across Himalayan cities (Pithoragarh, Dharamshala) — quantifying how urban growth displaces natural land cover under business-as-usual, ecosystem protection, and socio-economic development scenarios projected to 2040.</p>
-<p>Published in <em>Land</em> (2022) and <em>Ecological Indicators</em> (2022) · <a href="https://sites.google.com/view/sonali-geo/projects">View maps</a></p>
+<section id="lulc-change-western-himalaya-20022021" class="level3">
+<h3 class="anchored" data-anchor-id="lulc-change-western-himalaya-20022021">🗺️ LULC change — Western Himalaya (2002–2021)</h3>
+<p><em>ArcGIS · QGIS · Google Earth Engine · R</em></p>
+<p>Multi-temporal land use mapping across two Himalayan cities — quantifying two decades of urban expansion and forest fragmentation.</p>
+<p><a href="./projects/lulc-himalaya.html">View project</a></p>
+<hr>
+</section>
+<section id="urban-growth-scenarios-2040" class="level3">
+<h3 class="anchored" data-anchor-id="urban-growth-scenarios-2040">🌄 Urban growth scenarios 2040</h3>
+<p><em>IDRISI/TerrSet · ArcGIS · GEE</em></p>
+<p>CA-Markov modelling of three plausible futures — BAU, ecosystem protection, and socio-economic development — showing what planning choices mean for Himalayan forests by 2040.</p>
+<p><a href="./projects/urban-growth-scenarios.html">View project</a></p>
 <hr>
 </section>
 <section id="ecosystem-services-mapping" class="level3">
-<h3 class="anchored" data-anchor-id="ecosystem-services-mapping">Ecosystem services mapping</h3>
-<p><em>GEE · ArcGIS · R · Python</em></p>
-<p>Spatiotemporal modelling of four regulation ecosystem services — soil erosion regulation, flood regulation, carbon sequestration, and local climate regulation — across Himalayan urban landscapes. Hotspot and coldspot analysis to support landscape planning.</p>
-<p>Published in <em>City and Environment Interactions</em> (2020) and <em>Energy, Ecology and Environment</em> (2020) · <a href="https://sites.google.com/view/sonali-geo/projects">View maps</a></p>
+<h3 class="anchored" data-anchor-id="ecosystem-services-mapping">🌿 Ecosystem services mapping</h3>
+<p><em>GEE · ArcGIS · R · Morgan-Morgan-Finney · CASA model</em></p>
+<p>Spatiotemporal modelling of soil erosion regulation, flood regulation, carbon sequestration, and local climate regulation — with hotspot analysis to identify priority conservation areas.</p>
+<p>Published in <em>City and Environment Interactions</em> (2020) and <em>Energy, Ecology and Environment</em> (2020) · <a href="./projects/ecosystem-services.html">View project</a></p>
 <hr>
 </section>
 <section id="urban-heat-island-and-thermal-comfort" class="level3">
-<h3 class="anchored" data-anchor-id="urban-heat-island-and-thermal-comfort">Urban heat island and thermal comfort</h3>
+<h3 class="anchored" data-anchor-id="urban-heat-island-and-thermal-comfort">🌡️ Urban heat island and thermal comfort</h3>
 <p><em>Google Earth Engine · R</em></p>
-<p>Spatio-temporal surface urban heat island (SUHI) mapping and Urban Thermal Field Variation Index (UTFVI) analysis across Chandigarh and five satellite towns — quantifying thermal discomfort experienced by citizens and its drivers.</p>
-<p><a href="https://sites.google.com/view/sonali-geo/projects">View maps</a></p>
+<p>Spatio-temporal SUHI mapping and UTFVI analysis across Chandigarh and five satellite towns — quantifying thermal discomfort and its landscape drivers.</p>
+<p><em>Coming soon</em></p>
 <hr>
 </section>
 <section id="d-urban-typologies-and-biodiversity-helsinki" class="level3">
-<h3 class="anchored" data-anchor-id="d-urban-typologies-and-biodiversity-helsinki">3D urban typologies and biodiversity — Helsinki</h3>
+<h3 class="anchored" data-anchor-id="d-urban-typologies-and-biodiversity-helsinki">🏙️ 3D urban typologies and biodiversity — Helsinki</h3>
 <p><em>Python · R · LiDAR · transfer learning · HPC</em></p>
-<p>Deep learning pipeline combining LiDAR-derived 3D urban structure with bird community data to characterise built-vegetation associations and their role in supporting urban biodiversity. Led to two publications in <em>Landscape Ecology</em> (2026).</p>
-<p><a href="https://sites.google.com/view/sonali-geo/projects">View project</a></p>
+<p>Deep learning pipeline combining LiDAR-derived 3D urban structure with bird community data to characterise built-vegetation associations. Two publications in <em>Landscape Ecology</em> (2026).</p>
+<p><em>Coming soon</em></p>
 <hr>
 </section>
 <section id="machine-learning-for-urban-green-spaces" class="level3">
-<h3 class="anchored" data-anchor-id="machine-learning-for-urban-green-spaces">Machine learning for urban green spaces</h3>
+<h3 class="anchored" data-anchor-id="machine-learning-for-urban-green-spaces">🤖 Machine learning for urban green spaces</h3>
 <p><em>Transfer learning · Python · aerial imagery</em></p>
-<p>Applied transfer learning to classify private urban green spaces from high-resolution aerial imagery — distinguishing managed gardens, overgrown plots, and semi-natural patches at city scale.</p>
-<p>Under review in <em>Urban Forestry and Urban Greening</em> · Code releasing on acceptance</p>
+<p>Transfer learning to classify private urban green spaces from high-resolution aerial imagery. Under review in <em>Urban Forestry and Urban Greening</em>.</p>
+<p><em>Code releasing on paper acceptance</em></p>
 <hr>
 </section>
 </section>
@@ -269,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="lets-work-together">Let’s work together</h2>
 <p>If you are working on something where cities, nature, and spatial data intersect — I would love to hear about it.</p>
 <p><a href="mailto:ssonalipduoh@gmail.com">📧 ssonalipduoh@gmail.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/sonali-sharma-50220210b/">LinkedIn</a></p>
-<p><em>This portfolio is actively growing — new notebooks added as I build them.</em></p>
+<p><em>This portfolio is actively growing — new projects and notebooks added regularly.</em></p>
 
 
 </section>
