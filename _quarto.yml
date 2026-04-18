@@ -6,16 +6,27 @@ website:
   title: "Dr. Sonali Sharma"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - text: "Home"
+        href: index.qmd
+      - text: "Projects"
+        href: "index.qmd#projects"
+      - text: "Background"
+        href: "index.qmd#background"
+      - text: "Publications"
+        href: "https://sites.google.com/view/sonali-geo/publications"
+      - text: "Contact"
+        href: "mailto:ssonalipduoh@gmail.com"
     right:
       - icon: github
-        href: https://github.com/sonalispatial18/lidar-portfolio
+        href: https://github.com/sonalispatial18/sonali-geo
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sonali-sharma-50220210b/
 
 format:
   html:
-    theme: cosmo
-    toc: true
+    theme: flatly
+    toc: false
+    css: styles.css
 
 execute:
   freeze: auto

@@ -1,87 +1,115 @@
+/* Base font — larger and more readable */
+body {
+  font-size: 17px !important;
+  line-height: 1.85 !important;
+  color: #2c2c2c;
+}
+
+p, li, td {
+  font-size: 17px !important;
+}
+
 /* Profile section */
-.profile-container {
+.columns {
   display: flex;
   align-items: center;
   gap: 2.5rem;
   padding: 2rem 0;
 }
 
-.profile-photo {
-  width: 180px;
-  height: 180px;
+/* Profile photo circular */
+.columns img {
   border-radius: 50%;
+  width: 180px !important;
+  height: 180px !important;
   object-fit: cover;
   object-position: center top;
-  border: 4px solid #2c3e50;
-  flex-shrink: 0;
+  border: 4px solid #18bc9c;
 }
 
-.profile-text h1 {
-  font-size: 2rem;
-  font-weight: 600;
+/* Headings */
+h1 {
+  font-size: 2.4rem !important;
+  font-weight: 700 !important;
+  color: #1a1a2e;
   margin-bottom: 0.3rem;
 }
 
-.profile-text .subtitle {
-  font-size: 1.1rem;
-  color: #666;
-  margin-bottom: 0.8rem;
-}
-
-/* Project cards */
-.project-card {
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  transition: box-shadow 0.2s;
-}
-
-.project-card:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.project-card img {
-  width: 100%;
-  border-radius: 4px;
-  margin-bottom: 0.8rem;
-}
-
-/* Section dividers */
 h2 {
-  border-bottom: 2px solid #18bc9c;
+  font-size: 1.7rem !important;
+  font-weight: 600 !important;
+  border-bottom: 3px solid #18bc9c;
   padding-bottom: 0.4rem;
-  margin-top: 2.5rem;
+  margin-top: 3rem;
+  color: #1a1a2e;
 }
 
-/* Quote styling */
+h3 {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: #1a1a2e;
+  margin-top: 2rem;
+}
+
+/* Italic taglines under project headings */
+h3 + p > em {
+  font-size: 0.9rem !important;
+  color: #18bc9c;
+  letter-spacing: 0.01em;
+}
+
+/* Quote */
 blockquote {
   border-left: 4px solid #18bc9c;
-  background: #f8f9fa;
+  background: #f0faf7;
   padding: 1rem 1.5rem;
   border-radius: 0 8px 8px 0;
   font-style: italic;
-  color: #444;
+  font-size: 1.1rem !important;
+  color: #2c2c2c;
+  margin: 1.5rem 0;
 }
 
-/* Deliver table */
+/* Table */
 table {
   width: 100%;
+  font-size: 16px !important;
+}
+
+th {
+  background-color: #f0faf7;
+  font-weight: 600;
 }
 
 /* Links */
 a {
-  color: #18bc9c;
+  color: #18bc9c !important;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #148f77;
+  color: #0e7c60 !important;
+  text-decoration: underline;
 }
 
-/* Mobile responsive */
+/* Navbar */
+.navbar {
+  font-size: 15px !important;
+  font-weight: 500;
+}
+
+/* Section divider spacing */
+hr {
+  margin: 2.5rem 0;
+  border-color: #e0e0e0;
+}
+
+/* Mobile */
 @media (max-width: 600px) {
-  .profile-container {
+  .columns {
     flex-direction: column;
     text-align: center;
   }
+  h1 { font-size: 1.8rem !important; }
+  h2 { font-size: 1.4rem !important; }
 }
