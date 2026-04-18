@@ -130,8 +130,12 @@ hr {
   flex-direction: row-reverse;
 }
 
-.project-row .project-img {
-  flex: 0 0 48%;
+.project-row .project-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  display: block;
 }
 
 .project-row .project-img img {
