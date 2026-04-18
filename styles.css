@@ -114,3 +114,49 @@ hr {
   h1 { font-size: 1.8rem !important; }
   h2 { font-size: 1.4rem !important; }
 }
+
+/* Zigzag project layout */
+.project-row {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.project-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-row .project-img {
+  flex: 0 0 48%;
+}
+
+.project-row .project-img img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  display: block;
+}
+
+.project-row .project-info {
+  flex: 1;
+}
+
+.project-row .project-info h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .project-row,
+  .project-row.reverse {
+    flex-direction: column;
+  }
+  .project-row .project-img {
+    flex: none;
+    width: 100%;
+  }
+}
