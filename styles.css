@@ -357,12 +357,8 @@ body > .page-columns {
 
 /* ── Interests two-column grid ── */
 .interests-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.35rem 1.5rem;
-  margin-top: 0.5rem;
-  font-size: 0.88rem !important;
-  color: #444;
+  padding-left: 1.2rem; /* add this line */
+  list-style: disc;     /* add this line */
 }
 
 .interests-grid div {
