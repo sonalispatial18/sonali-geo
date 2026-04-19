@@ -406,8 +406,9 @@ body > .page-columns {
 .project-card-img img {
   width: 100%;
   height: 180px;
-  object-fit: cover;
+  object-fit: contain;  /* changed from cover to contain */
   display: block;
+  background: #f8f9fa;  /* adds a light grey background to fill empty space */
 }
 
 .project-card-body {
