@@ -357,8 +357,11 @@ body > .page-columns {
 
 /* ── Interests two-column grid ── */
 .interests-grid {
-  padding-left: 1.2rem; /* add this line */
-  list-style: disc;     /* add this line */
+  display: grid;                  /* make sure this is there */
+  grid-template-columns: 1fr 1fr; /* make sure this is there */
+  padding-left: 1.2rem;
+  list-style: disc;
+  gap: 0.35rem 1.5rem;
 }
 
 .interests-grid div {
