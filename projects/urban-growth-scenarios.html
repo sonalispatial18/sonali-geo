@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Urban Growth Scenarios 2040 — Western Himalaya – Dr.&nbsp;Sonali Sharma</title>
+<title>What could the Western Himalayan landscapes look like by 2040? – Dr.&nbsp;Sonali Sharma</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -141,8 +141,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Urban Growth Scenarios 2040 — Western Himalaya</h1>
-<p class="subtitle lead">What happens to Himalayan forests depends on which planning path cities choose</p>
+<h1 class="title">What could the Western Himalayan landscapes look like by 2040?</h1>
+<p class="subtitle lead">Three plausible pathways modelled for Dharamshala and Pithoragarh</p>
 </div>
 
 
@@ -160,31 +160,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="the-question" class="level2">
-<h2 class="anchored" data-anchor-id="the-question">The question</h2>
-<p>If current urban growth trends continue unchecked in the Western Himalaya, how much forest and cropland will be lost by 2040? And could nature-sensitive planning make a meaningful difference — or is urbanisation inevitable regardless of policy?</p>
-<p>To answer this, I modelled three plausible futures for <strong>Pithoragarh (PG)</strong> and <strong>Dharamshala (DM)</strong> using a CA-Markov simulation framework calibrated against observed LULC transitions from 2002–2021 (see <a href="../projects/lulc-himalaya.html">LULC change project</a>).</p>
+<h2 class="anchored" data-anchor-id="the-question">The Question</h2>
+<p>Medium-sized Himalayan towns sit at a crossroads. They are growing fast enough to matter ecologically, but still small enough that planning decisions can meaningfully shape what they look like in twenty years. The question is not whether they will grow. They are and will continue growing tremendously. The question is how, and at what cost to the landscapes they depend on.</p>
+<p>To make that question concrete, three plausible futures were modelled for Dharamshala and Pithoragarh up to 2040 — not to predict what will happen, but to show planners and policymakers what each path looks like on the ground before they commit to it.</p>
 <hr>
 </section>
-<section id="conceptual-framework" class="level2">
-<h2 class="anchored" data-anchor-id="conceptual-framework">Conceptual framework</h2>
-<p>The work sits within a landscape assessment–intervention cycle: spatial data informs landscape characterisation, which feeds scenario modelling, which generates evidence for stakeholder deliberation — scientists, planners, policymakers, and local communities — leading back to improved landscape management.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images_highquality/lulc/Framework.jpg" class="img-fluid figure-img" alt="Circular framework diagram showing the cycle from ecosystem assessment through intervention and governance to urban landscape development"></p>
-<figcaption>Conceptual framework linking landscape assessment, scenario modelling, and governance for urban landscape development in the Himalaya</figcaption>
-</figure>
-</div>
-<p>This framing matters: the maps are not just academic outputs. They are boundary objects — tools designed to make abstract futures legible to the people who will actually make planning decisions.</p>
-<hr>
-</section>
-<section id="three-scenarios" class="level2">
-<h2 class="anchored" data-anchor-id="three-scenarios">Three scenarios</h2>
+<section id="what-was-done" class="level2">
+<h2 class="anchored" data-anchor-id="what-was-done">What Was Done</h2>
+<p>A CA-Markov simulation framework was calibrated against observed land cover transitions from 2002 to 2021 (see the LULC Change project). Three scenarios were built by modifying the transition probability matrix to reflect different planning and governance assumptions:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 19%">
 <col style="width: 25%">
-<col style="width: 42%">
-<col style="width: 13%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -196,53 +185,59 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>BAU</strong> — Business as usual</td>
-<td>Based on past patterns</td>
+<td><strong>BAU</strong> — Business as Usual</td>
+<td>Follows historical trend</td>
 <td>None</td>
-<td>Trend continues unchanged</td>
+<td>Growth continues unchecked</td>
 </tr>
 <tr class="even">
-<td><strong>ESP</strong> — Ecosystem protection</td>
+<td><strong>ESP</strong> — Ecosystem Protection</td>
 <td>20% less than BAU</td>
-<td>Cropland to forest; barren land restored</td>
-<td>Active conservation policy</td>
+<td>Cropland converts to forest; barren land restored</td>
+<td>Ecological Conservation priorities in force</td>
 </tr>
 <tr class="odd">
-<td><strong>SED</strong> — Socio-economic development</td>
+<td><strong>SED</strong> — Socio-economic Development</td>
 <td>20% more than BAU</td>
 <td>None</td>
 <td>Development-first priorities</td>
 </tr>
 </tbody>
 </table>
-<p>Each scenario modifies the transition probability matrix in the CA-Markov model — ESP constrains built-up expansion and enhances forest regeneration transitions; SED removes constraints and accelerates conversion rates.</p>
-<p><strong>Tools:</strong> IDRISI/TerrSet · ArcGIS · R · Google Earth Engine<br>
-<strong>Data:</strong> Calibrated LULC maps 2002–2021 · topographic constraints · NASA NEX-GDPP CMIP5 future climate data</p>
+<p>The maps were designed from the outset to be used in stakeholder deliberation — translating model outputs into spatial narratives that planners, municipal authorities, and local communities can engage with directly, not just read as academic results.</p>
+<p><strong>Tools:</strong> IDRISI/TerrSet · ArcGIS · <strong>Data:</strong> Calibrated LULC maps 2002–2021 · topographic constraints</p>
 <hr>
 </section>
 <section id="projected-lulc-2040" class="level2">
 <h2 class="anchored" data-anchor-id="projected-lulc-2040">Projected LULC 2040</h2>
-<div class="quarto-layout-panel" data-layout-ncol="1">
+<div id="fig-scenarios" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-scenarios-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images_highquality/lulc/2040_LULC.jpg" class="img-fluid figure-img" alt="Three-panel map showing projected land cover in Dharamshala &amp; Pithoragarh in 2040 under three scenarios"></p>
-<figcaption>Dharamshala &amp; Pithoragarh — projected LULC 2040 under BAU, ESP and SED scenarios</figcaption>
+<img src="../images_highquality/lulc/2040_LULC.jpg" class="img-fluid figure-img" alt="Three-panel map showing projected land cover in Dharamshala and Pithoragarh in 2040 under BAU, ESP and SED scenarios">
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenarios-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Dharamshala and Pithoragarh — projected land cover in 2040 under three planning scenarios.
+</figcaption>
 </figure>
 </div>
-</div>
-</div>
-</div>
-<p>The contrast is stark in both cities. Under <strong>ESP</strong>, forest patches are retained and partially restored — the landscape in 2040 still carries ecological connectivity. Under <strong>SED</strong>, red built-up dominates valley floors and spreads onto slopes that were forested in 2021. <strong>BAU</strong> sits between the two but still entails substantial forest loss.</p>
+<p>The contrast is visible. Under ESP, forest patches are retained and partially restored. The landscape in 2040 still carries ecological connectivity across slopes. Under SED, red built-up dominates valley floors and spreads onto terrain that was forested in 2021. BAU sits between the two, but still entails substantial and largely irreversible loss.</p>
 <hr>
 </section>
-<section id="key-finding" class="level2">
-<h2 class="anchored" data-anchor-id="key-finding">Key finding</h2>
-<p>Planning choices made <em>now</em> determine whether Himalayan cities retain functional forest and agricultural landscapes by 2040. The difference between ESP and SED is not marginal — it is the difference between a city embedded in a working landscape and one that has consumed it.</p>
-<p>The scenario maps were designed to be used in stakeholder discussions with planners and municipal authorities — translating model outputs into spatial narratives that non-specialist audiences can engage with directly.</p>
-<p>This connects directly to the <a href="../projects/ecosystem-services.html">ecosystem services project</a>, which quantifies what is lost under each trajectory in terms of flood regulation, carbon sequestration, and local climate moderation.</p>
+<section id="what-planners-can-do-with-this" class="level2">
+<h2 class="anchored" data-anchor-id="what-planners-can-do-with-this">What Planners Can Do With This</h2>
+<p><strong>See the cost of inaction before it is too late</strong> The BAU scenario is not a neutral baseline. It is a projection of what happens if planning capacity stays where it is today. For Pithoragarh, that means the built-up footprint more than doubles in under twenty years, with vegetation and cropland absorbing the majority of that cost.</p>
+<p><strong>Use ESP as a design target, not just a model output</strong> The ecosystem protection scenario shows that meaningful reversal is spatially possible. Forest gains of 24–31% are achievable if transition probabilities are actively managed through conservation zoning, reforestation incentives, and constrained infrastructure permitting. These are concrete, implementable policy levers.</p>
+<p><strong>Plan by trajectory, not by average</strong> The three scenarios diverge most sharply in the outer zones of both cities, where planning authority is weakest and growth pressure is highest. That is exactly where scenario-informed zoning can have the most impact, because land conversion there is not yet irreversible.</p>
+<p><strong>Feed scenarios into ecosystem service and climate risk assessments</strong> Each trajectory carries a different profile of flood regulation capacity, soil erosion, carbon storage, and local heat regulation. The LULC projections here connect directly to those calculations (see the Ecosystem Services project), giving EIA teams and municipal climate offices a spatially explicit basis for evaluating what each planning path actually costs in ecosystem terms.</p>
 <hr>
+</section>
+<section id="publication" class="level2">
+<h2 class="anchored" data-anchor-id="publication">Publication</h2>
+<p><strong>Sharma, S.</strong>, Joshi, P.K., and Fürst, C. (in progress). Rampant or ecological? Urban growth pathways in Himalaya. <em>Ecological Indicators.</em></p>
 
 
 </section>
