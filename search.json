@@ -1,0 +1,275 @@
+[
+  {
+    "objectID": "projects/urban-heat-island.html",
+    "href": "projects/urban-heat-island.html",
+    "title": "Urban Heat Island — Chandigarh and Satellite Towns",
+    "section": "",
+    "text": "Conventional wisdom says larger, more urbanised cities have stronger heat islands. This study found the opposite.\nChandigarh — India’s first planned city, its most urbanised centre in this study, with the highest proportion of built-up surface — experienced less surface urban heat island (SUHI) intensity than three of its much smaller satellite towns. Zirakpur, Kharar, and Mullanpur Garibdass, despite being a fraction of Chandigarh’s size, had the worst thermal environments of all six urban centres studied.\nThe reason: it is not how much built-up area a city has that determines its heat island — it is how that built-up area is spatially distributed relative to green spaces and water."
+  },
+  {
+    "objectID": "projects/urban-heat-island.html#the-counter-intuitive-finding",
+    "href": "projects/urban-heat-island.html#the-counter-intuitive-finding",
+    "title": "Urban Heat Island — Chandigarh and Satellite Towns",
+    "section": "",
+    "text": "Conventional wisdom says larger, more urbanised cities have stronger heat islands. This study found the opposite.\nChandigarh — India’s first planned city, its most urbanised centre in this study, with the highest proportion of built-up surface — experienced less surface urban heat island (SUHI) intensity than three of its much smaller satellite towns. Zirakpur, Kharar, and Mullanpur Garibdass, despite being a fraction of Chandigarh’s size, had the worst thermal environments of all six urban centres studied.\nThe reason: it is not how much built-up area a city has that determines its heat island — it is how that built-up area is spatially distributed relative to green spaces and water."
+  },
+  {
+    "objectID": "projects/urban-heat-island.html#study-area",
+    "href": "projects/urban-heat-island.html#study-area",
+    "title": "Urban Heat Island — Chandigarh and Satellite Towns",
+    "section": "Study area",
+    "text": "Study area\nSix urban centres in the Chandigarh Capital Region, Punjab/Haryana, India — mapped across four time points: 1992, 2000, 2010, 2019.\n\n\n\n\n\n\n\nUrban centre\nCharacter\n\n\n\n\nChandigarh\nIndia’s first planned city · highest vegetation ratio (0.75)\n\n\nPanchkula\nSecond prime centre · adjacent to Shivalik forest ranges\n\n\nMohali\nLargest satellite town · vegetation along river channels\n\n\nZirakpur\nFast-growing satellite town · lowest vegetation ratio (0.49)\n\n\nKharar\nSmall satellite town · 95% built-up area under distinguished SUHI by 2019\n\n\nMullanpur Garibdass\nSmallest · highest SUHI intensity per unit area\n\n\n\nTools: Google Earth Engine · R · Landsat 4/5 and 8\nIndices: Land Surface Temperature (LST) · Surface Urban Heat Island (SUHI) · Urban Thermal Field Variation Index (UTFVI) - Ecological Quality Indicator"
+  },
+  {
+    "objectID": "projects/urban-heat-island.html#from-lst-to-suhi-to-ecological-quality",
+    "href": "projects/urban-heat-island.html#from-lst-to-suhi-to-ecological-quality",
+    "title": "Urban Heat Island — Chandigarh and Satellite Towns",
+    "section": "From LST to SUHI to ecological quality",
+    "text": "From LST to SUHI to ecological quality\nThe analysis followed a three-step derivation:\nLST (land surface temperature from Landsat thermal bands) → SUHI (relative temperature elevation above rural background, classified into six intensity grades) → UTFVI (Urban Thermal Field Variation Index — ecological quality experienced by residents, from excellent to worst)\n\n\n\n\n\n\nLand surface temperature — Chandigarh and satellite towns across 1992, 2000, 2010, 2019\n\n\n\n\n\nMean LST across the study area rose from 18.4°C to 26.7°C between 1992 and 2019 — a warming of over 8°C in less than three decades, driven almost entirely by agricultural land being converted to built-up surfaces."
+  },
+  {
+    "objectID": "projects/urban-heat-island.html#suhi-intensity",
+    "href": "projects/urban-heat-island.html#suhi-intensity",
+    "title": "Urban Heat Island — Chandigarh and Satellite Towns",
+    "section": "SUHI intensity",
+    "text": "SUHI intensity\n\n\n\n\n\n\nSurface urban heat island intensity — Chandigarh and satellite towns\n\n\n\n\n\nThe spatial pattern is striking. Within Chandigarh’s urban boundary, forest cover actually increased by 46% between 1992 and 2019 — a direct result of planned city greening. This, combined with the cooling effect of Sukhna Lake, kept SUHI intensity suppressed despite high urbanisation. Panchkula’s proximity to the Shivalik forest ranges provided a similar geographic cooling buffer.\nIn contrast, Zirakpur, Kharar, and Mullanpur Garibdass urbanised rapidly with no equivalent greening — producing dense built-up areas with no spatial interspersion of vegetation or water. By 2019, 95% of Kharar’s built-up area was under distinguished SUHI impact."
+  },
+  {
+    "objectID": "projects/urban-heat-island.html#ecological-quality-utfvi",
+    "href": "projects/urban-heat-island.html#ecological-quality-utfvi",
+    "title": "Urban Heat Island — Chandigarh and Satellite Towns",
+    "section": "Ecological quality — UTFVI",
+    "text": "Ecological quality — UTFVI\n\n\n\n\n\n\nUrban Thermal Field Variation Index — ecological quality across six urban centres\n\n\n\n\n\nExcellent ecological quality zones were found only within Chandigarh, Panchkula, and partially in Mohali. For Zirakpur, Kharar, and Mullanpur Garibdass, excellent quality was restricted to peripheral cropland outside the urban boundary — meaning residents of these towns experienced predominantly poor to worst thermal environments within their own cities."
+  },
+  {
+    "objectID": "projects/urban-heat-island.html#key-finding-and-planning-implications",
+    "href": "projects/urban-heat-island.html#key-finding-and-planning-implications",
+    "title": "Urban Heat Island — Chandigarh and Satellite Towns",
+    "section": "Key finding and planning implications",
+    "text": "Key finding and planning implications\nThe intensity of heat island effects is not a simple function of city size or total built-up area. It is determined by the spatial distribution and pattern of built-up surfaces relative to green spaces and water across the urban landscape.\nThis has direct implications for satellite town development across India and the Global South — where rapid peri-urbanisation is creating new cities without the green infrastructure frameworks that Chandigarh benefited from at founding.\nPractical recommendations from the study:\n\nIntegrate green space and water body targets into satellite town masterplans from the outset — retrofitting is significantly harder\nPrioritise greening in high-SUHI zones identified by the spatial maps\nDevelop green belts along road networks and residential areas\nCool roofs and permeable pavements as immediate interventions in already built-up areas with no room for new vegetation"
+  },
+  {
+    "objectID": "projects/urban-heat-island.html#note-on-publication-status",
+    "href": "projects/urban-heat-island.html#note-on-publication-status",
+    "title": "Urban Heat Island — Chandigarh and Satellite Towns",
+    "section": "Note on publication status",
+    "text": "Note on publication status\nThis work was completed out of interest during doctoral studies but not submitted for publication. The spatial analysis, maps, and findings represent original research conducted solely by me during my time at Jawaharlal Nehru University."
+  },
+  {
+    "objectID": "projects/urban-growth-scenarios.html",
+    "href": "projects/urban-growth-scenarios.html",
+    "title": "Urban Growth Scenarios 2040 — Western Himalaya",
+    "section": "",
+    "text": "If current urban growth trends continue unchecked in the Western Himalaya, how much forest and cropland will be lost by 2040? And could nature-sensitive planning make a meaningful difference — or is urbanisation inevitable regardless of policy?\nTo answer this, I modelled three plausible futures for Pithoragarh (PG) and Dharamshala (DM) using a CA-Markov simulation framework calibrated against observed LULC transitions from 2002–2021 (see LULC change project)."
+  },
+  {
+    "objectID": "projects/urban-growth-scenarios.html#the-question",
+    "href": "projects/urban-growth-scenarios.html#the-question",
+    "title": "Urban Growth Scenarios 2040 — Western Himalaya",
+    "section": "",
+    "text": "If current urban growth trends continue unchecked in the Western Himalaya, how much forest and cropland will be lost by 2040? And could nature-sensitive planning make a meaningful difference — or is urbanisation inevitable regardless of policy?\nTo answer this, I modelled three plausible futures for Pithoragarh (PG) and Dharamshala (DM) using a CA-Markov simulation framework calibrated against observed LULC transitions from 2002–2021 (see LULC change project)."
+  },
+  {
+    "objectID": "projects/urban-growth-scenarios.html#conceptual-framework",
+    "href": "projects/urban-growth-scenarios.html#conceptual-framework",
+    "title": "Urban Growth Scenarios 2040 — Western Himalaya",
+    "section": "Conceptual framework",
+    "text": "Conceptual framework\nThe work sits within a landscape assessment–intervention cycle: spatial data informs landscape characterisation, which feeds scenario modelling, which generates evidence for stakeholder deliberation — scientists, planners, policymakers, and local communities — leading back to improved landscape management.\n\n\n\nConceptual framework linking landscape assessment, scenario modelling, and governance for urban landscape development in the Himalaya\n\n\nThis framing matters: the maps are not just academic outputs. They are boundary objects — tools designed to make abstract futures legible to the people who will actually make planning decisions."
+  },
+  {
+    "objectID": "projects/urban-growth-scenarios.html#three-scenarios",
+    "href": "projects/urban-growth-scenarios.html#three-scenarios",
+    "title": "Urban Growth Scenarios 2040 — Western Himalaya",
+    "section": "Three scenarios",
+    "text": "Three scenarios\n\n\n\n\n\n\n\n\n\nScenario\nUrban growth\nEcosystem protection\nLogic\n\n\n\n\nBAU — Business as usual\nBased on past patterns\nNone\nTrend continues unchanged\n\n\nESP — Ecosystem protection\n20% less than BAU\nCropland to forest; barren land restored\nActive conservation policy\n\n\nSED — Socio-economic development\n20% more than BAU\nNone\nDevelopment-first priorities\n\n\n\nEach scenario modifies the transition probability matrix in the CA-Markov model — ESP constrains built-up expansion and enhances forest regeneration transitions; SED removes constraints and accelerates conversion rates.\nTools: IDRISI/TerrSet · ArcGIS · R · Google Earth Engine\nData: Calibrated LULC maps 2002–2021 · topographic constraints · NASA NEX-GDPP CMIP5 future climate data"
+  },
+  {
+    "objectID": "projects/urban-growth-scenarios.html#projected-lulc-2040",
+    "href": "projects/urban-growth-scenarios.html#projected-lulc-2040",
+    "title": "Urban Growth Scenarios 2040 — Western Himalaya",
+    "section": "Projected LULC 2040",
+    "text": "Projected LULC 2040\n\n\n\n\n\n\nDharamshala & Pithoragarh — projected LULC 2040 under BAU, ESP and SED scenarios\n\n\n\n\n\nThe contrast is stark in both cities. Under ESP, forest patches are retained and partially restored — the landscape in 2040 still carries ecological connectivity. Under SED, red built-up dominates valley floors and spreads onto slopes that were forested in 2021. BAU sits between the two but still entails substantial forest loss."
+  },
+  {
+    "objectID": "projects/urban-growth-scenarios.html#key-finding",
+    "href": "projects/urban-growth-scenarios.html#key-finding",
+    "title": "Urban Growth Scenarios 2040 — Western Himalaya",
+    "section": "Key finding",
+    "text": "Key finding\nPlanning choices made now determine whether Himalayan cities retain functional forest and agricultural landscapes by 2040. The difference between ESP and SED is not marginal — it is the difference between a city embedded in a working landscape and one that has consumed it.\nThe scenario maps were designed to be used in stakeholder discussions with planners and municipal authorities — translating model outputs into spatial narratives that non-specialist audiences can engage with directly.\nThis connects directly to the ecosystem services project, which quantifies what is lost under each trajectory in terms of flood regulation, carbon sequestration, and local climate moderation."
+  },
+  {
+    "objectID": "projects/lulc-himalaya.html",
+    "href": "projects/lulc-himalaya.html",
+    "title": "Land Use / Land Cover Change — Western Himalaya",
+    "section": "",
+    "text": "The Western Himalaya is urbanising rapidly — but in the early 2010s, locally calibrated, high-resolution spatial data on how these cities were growing simply did not exist. National datasets were too coarse. Remote sensing products were untested for mountain terrain. Planning decisions were being made without spatial evidence.\nThis project filled that gap."
+  },
+  {
+    "objectID": "projects/lulc-himalaya.html#the-problem",
+    "href": "projects/lulc-himalaya.html#the-problem",
+    "title": "Land Use / Land Cover Change — Western Himalaya",
+    "section": "",
+    "text": "The Western Himalaya is urbanising rapidly — but in the early 2010s, locally calibrated, high-resolution spatial data on how these cities were growing simply did not exist. National datasets were too coarse. Remote sensing products were untested for mountain terrain. Planning decisions were being made without spatial evidence.\nThis project filled that gap."
+  },
+  {
+    "objectID": "projects/lulc-himalaya.html#what-i-did",
+    "href": "projects/lulc-himalaya.html#what-i-did",
+    "title": "Land Use / Land Cover Change — Western Himalaya",
+    "section": "What I did",
+    "text": "What I did\nUsing multi-date Landsat imagery processed in Google Earth Engine and classified in ArcGIS, I mapped land use and land cover across two contrasting Himalayan cities — Dharamshala (DM) and Pithoragarh (PG) — at four time points: 2002, 2010, 2016, and 2021.\nThe classification distinguished 12 land cover classes including Deodar forest, Pine, Oak, mixed forest types, glaciated regions, cropland, slate mines, dry river beds, and built-up areas — capturing the full ecological complexity of mountain landscapes rather than collapsing them into generic “forest / non-forest” categories.\nTools: Google Earth Engine · ArcGIS · QGIS · R\nData: Landsat 5, 7, 8 · topographic data · field validation points\nCities: Dharamshala and Pithoragarh, Himachal Pradesh and Uttarakhand, India"
+  },
+  {
+    "objectID": "projects/lulc-himalaya.html#maps",
+    "href": "projects/lulc-himalaya.html#maps",
+    "title": "Land Use / Land Cover Change — Western Himalaya",
+    "section": "Maps",
+    "text": "Maps\n\n\n\n\n\n\nDharamshala — LULC 2002 to 2021\n\n\n\n\n\n\n\nPithoragarh — LULC 2002 to 2021\n\n\n\n\n\nThe red built-up patches expand visibly between 2002 and 2021 — concentrated along valley floors and road corridors, progressively replacing cropland and fragmenting forest patches. Glaciated regions (light blue) show measurable recession over the same period."
+  },
+  {
+    "objectID": "projects/lulc-himalaya.html#key-findings",
+    "href": "projects/lulc-himalaya.html#key-findings",
+    "title": "Land Use / Land Cover Change — Western Himalaya",
+    "section": "Key findings",
+    "text": "Key findings\nBuilt-up area expanded significantly in both cities over the two decades, with the steepest growth between 2010 and 2021. Urban expansion in Dharamshala followed a linear corridor pattern along the main road axis; Pithoragarh showed more radial sprawl constrained by topography. Forest fragmentation — particularly of Pine and Oak-mixed classes — was measurable even within the 19-year window, with implications for biodiversity corridors and ecosystem service provision in both landscapes."
+  },
+  {
+    "objectID": "projects/lulc-himalaya.html#publications",
+    "href": "projects/lulc-himalaya.html#publications",
+    "title": "Land Use / Land Cover Change — Western Himalaya",
+    "section": "Publications",
+    "text": "Publications\n\nSharma, S., Joshi, P.K., and Fürst, C. (2022). Exploring multiscale influence of urban growth on landscape patterns of two emerging urban centres in the Western Himalaya. Land, 11, 2281.\nSharma, S., Joshi, P.K., and Fürst, C. (2022). Unravelling net primary productivity dynamics under urbanisation and climate change in the Western Himalaya. Ecological Indicators, 144, 109508."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dr. Sonali Sharma",
+    "section": "",
+    "text": "📧 Email LinkedIn Download CV\n\n\n\n\nI am a Geospatial Analyst and Urban ecologist actively seeking opportunities to deliver nature-positive and climate resilient solutions at the intersection of Earth observation, GeoAI and Environmental planning. With 7+ years of transforming complex 2D & 3D spatial data into planning-relevant insights that cities, regions and nature need, I have built geospatial workflows connecting LiDAR, high resolution land cover and socio-economic data for urban and nature environments.\nI hold a PhD in Environmental Sciences and bring international work experiences across India, Germany, and Finland — always aimed at synthesizing spatial evidence for planning and policy. I am ready to bring my spatial analytics expertise, interdisciplinary background, and cross-cultural adaptability to organisations where geospatial intelligence can drive climate adaptation, biodiversity-sensitive and nature-based solutions planning.\nInterests\n\n\nEarth observation & satellite data science\n\n\nEnvironmental & urban planning\n\n\nLiDAR & 3D urban structure\n\n\nRemote sensing & GIS analytics\n\n\nGeoAI & deep learning for Geospatial\n\n\nEcosystem service modelling\n\n\nGreen infrastructure & nature-based solutions\n\n\nLandscape ecology\n\n\nBiodiversity & urban ecology\n\n\nCarbon accounting & climate reporting\n\n\nReproducible geospatial workflows\n\n\nScience-policy interface\n\n\n\n\n\n\n\n\n\n\n\n\n\nUniversity of Helsinki, Finland\n\n\nSep 2023 – Oct 2025\n\n\nGIS workflow design and automation integrating LiDAR and high-resolution land cover data, reducing processing time by 70%. Reproducible machine learning pipeline development for 3D urban and nature spatial analysis. Spatial analysis of bird biodiversity data, linking species occurrence with urban structural heterogeneity to derive planning-relevant insights. Interdisciplinary project coordination with the Finnish Environment Institute, delivering actionable map products and scientific outputs. Stakeholder engagement and findings presentation at workshops and conferences.\n\n\nPythonRLiDARHPCQ/ArcGISMachine learning 3D Urban typologyHybrid associationsStakeholder engagementScientific reportingUrban biodiversity planning\n\n\n\n\n\n\n\n\n\n\nMartin-Luther-Universität Halle-Wittenberg, Germany\n\n\nAug 2020 – Sep 2021\n\n\nDAAD Bi-national Fellowship recipient. Led research on future plausible urban growth and climate change scenarios and their implications on ecosystem services. Worked with German research teams and presented at international conferences focused on sustainability and geospatial methods.\n\n\nArcGISPythonRGoogle Earth EngineIPCC climate scenariosUrban growth modelling\n\n\n\n\n\n\n\n\n\n\nJawaharlal Nehru University, New Delhi, India\n\n\nAug 2018 – Jun 2023\n\n\nModelled urban ecosystem services — soil erosion, flood regulation, heat regulation, and carbon sequestration in two Himalaya landscapes. Integrated multi-source datasets (climate, land cover, remote sensing) for urban growth and heat island studies. Mentored junior researchers in GIS workflows and data processing.\n\n\nArcGISPythonRGoogle Earth EngineEcosystem ServicesWatershed modellingSpatio-temporal assessmentSocio-economic dataHeat island mapping\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow Many Trees — and How Tall Are the Buildings?  Automated Urban Structure Inventory from LiDAR\n\nLiDAR · Individual Tree Detection · Crown Delineation · Building Heights · Green Infrastructure\n\nUrban green planners spends hundreds of Euros on manual tree surveys. This pipeline turns a single open-access LiDAR file into a complete complete urban structure inventory — 872 individual trees mapped with locations, heights, and crown extents, alongside wall-to-wall building heights — in one reproducible notebook run. Ready to feed directly into green infrastructure audits, urban heat mitigation plans, shadow modelling or carbon accounting workflows.\nView notebook →\n\n\n\n\n\n\n\nHow much Carbon does your urban forest store?  Wall-to-Wall Carbon Mapping from LiDAR\n\nLiDAR Carbon mapping · Repola allometrics · IPCC Tier-1 carbon conversion · Voluntary Carbon Markets\n\nMunicipal climate accounts and voluntary carbon markets demand spatially explicit, auditable carbon estimates — not averages extrapolated from field plots. This pipeline goes from a single open-access LiDAR tile to a wall-to-wall carbon stock map at individual tree resolution across an urban forest site in Helsinki. Every tree counted, every tonne traceable — and fully scalable to landscape-wide coverage with additional tiles.\nView notebook →\n\n\n\n\n\n\n\nCan GeoAI replace LiDAR for Urban Canopy Mapping?  A Pixel-Level Validation\n\nLiDAR · GeoAI · Deep Learning · Canopy Height Model · Accuracy Assessment · Residual Mapping · Urban\n\nLiDAR is accurate but not freely omnipresent yet. Deep learning models trained on aerial imagery promise a cheaper, scalable alternative — but do they actually hold up? This notebook delivers a pixel-level validation of GeoAI’s SSL-pretrained canopy height model against airborne LiDAR as ground truth across a Helsinki urban neighbourhood.\nView notebook →\n\n\n\n\n\n\n\nCan GeoAI replace LiDAR in a forest?  A Pixel-Level Validation\n\nLiDAR · GeoAI · Deep Learning · Canopy Height Model · Accuracy Assessment · Residual Mapping · Forest\n\nLiDAR is accurate but not freely omnipresent yet. Deep learning models trained on aerial imagery promise a cheaper, scalable alternative — but do they hold up in dense forest where the canopy is closed and individual crowns are harder to resolve? This notebook delivers a pixel-level validation of GeoAI’s SSL-pretrained canopy height model against airborne LiDAR as ground truth across a Helsinki forested site.\nView notebook →\n\n\n\n\n\n\n\nHow different Housing Types look in 3-D?  3D urban-green typologies — Nordic residential areas\n\nLiDAR · 3D Urban Typology · Green Infrastructure · Vegetation Structure ·Lahti\n\nNot all residential areas relate to green infrastructure the same way — and planning that ignores this distinction misses where and what to investment is most needed. This project explored five LiDAR-based urban-green typologies. A direct planning tool for identifying which housing types need which vegetation layer — shrub, sub-canopy, or canopy — and where. View full project →\n\n\n\n\n\n\n\nHow does Helsinki Metropolitan region look like 3-D?  Urban Residential Typology — Built-Vegetation Hybrid Associations\n\nTransfer learning · CNN · LiDAR · 2 m LULC · Under review\n\nA scalable residential typology of built-vegetation hybrid associations across the Helsinki Metropolitan Area — combining transfer learning with building and vegetation height information at planning scale. Can GeoAI help design better cities by identifying green infrastructure needs at planning scale? Do green infrastructure needs fundamentally differ between detached housing and high-rise flats? Which housing types need investment and what vegetation layers — shrub, sub-canopy, or canopy — are missing?\nCode releasing on paper acceptance\n\n\n\n\n\n\n\nHow did urbanisation unfold in Indian Western Himalaya over past two decades?  Spatio-temporal LULC assessment\n\nLand Cover Change · Sentinel · Aster DEM · Published | Land (2022)\n\nUnplanned urban growth in mountain cities rarely makes headlines. Two decades of urbanisation-induced land cover change mapped at species-level resolution across Dharamshala and Pithoragarh using open-source satellite data. Quantified what, how much, and where natural and semi-natural land units were lost — directly actionable for mountain city planners.\nView full project →\n\n\n\n\n\n\n\nWhat could the Western Himalayan landscapes look like by 2040?  Future Studies: Urban growth scenarios\n\nIDRISI/TerrSet · ArcGIS\n\nUnplanned growth in mountain cities rarely follows a single path — but planners need to see all of them. Three plausible futures — Business As Usual, Ecosystem Protection, Development-First. Spatial maps designed for stakeholder deliberation: What does each plausible path look like on the ground by 2040?\nView full project →\n\n\n\n\n\n\n\nWhere can Himalayan cities grow without compromising ecosystem resilience?  Past, Present & Future of Ecosystem Services — Western Himalaya\n\nEcosystem Services · Flood Regulation · Carbon Sequestration · Soil Erosion · Heat Mitigation · Climate Scenarios\n\nFlood regulation, carbon sequestration, soil erosion, and heat mitigation — spatio-temporally quantified, hotspot-mapped, and projected under three combined planning and climate change scenarios across two Himalayan urban landscapes. Which areas are crucial for each ecosystem service? Where can development expand without compromising ecosystem resilience?\nView full project →\n\n\n\n\n\n\n\nDo smaller satellite towns run hotter than the planned city next door?  Urban Heat Island — Chandigarh & Satellite Towns (1992–2019)\n\nLand Surface Temperature · LULC · Ecological Quality · Landsat\n\nCounter-intuitive finding: smaller satellite towns had worse heat islands than the larger planned city. Green space distribution matters more than total area — direct implications for satellite town masterplanning across South Asia.\nView full project →\n\n\n\n\n\n\n\n\n\nDennis, M., Huck, J., Holt, C., McHenry, E., Andersson, E., Sharma, S., and Haase, D. (2026). In search of Schrödinger’s patch: A functional approach to habitat delineation. Landscape Ecology, 41, 36.\nDennis, M., Huck, J., Holt, C., McHenry, E., Andersson, E., Sharma, S., and Haase, D. (2026). Beyond the patch: Leveraging the notion of realized habitat in fragmentation-biodiversity research. Landscape Ecology, 41, 37.\nSharma, S., Joshi, P.K., and Fürst, C. (2022). Exploring multiscale influence of urban growth on landscape patterns of two emerging urban centres in the Western Himalaya. Land, 11, 2281.\nSharma, S., Joshi, P.K., and Fürst, C. (2022). Unravelling net primary productivity dynamics under urbanization and climate change in the Western Himalaya. Ecological Indicators, 144, 109508.\nSharma, S., Sharma, M., Anees, M.M., and Joshi, P.K. (2020). Longitudinal study of changes in ecosystem services in a city of lakes, Bhopal, India. Energy, Ecology and Environment, 6, 408–424.\nSharma, S., Nahid, S., Sannigarhi, S., Sharma, M., Anees, M.M., Sharma, R., Shekhar, R., Joshi, P.K., Basu, A.S., Pilla, F., and Basu, B. (2020). A long-term and comprehensive assessment of urbanization-induced impacts on ecosystem services in the capital city of India. City and Environment Interactions, 7, 1-12, 100047.\n\n\n\nSharma, S., Maija, T., and Andersson, E. (n.d.). Situating private urban green spaces — using transfer learning to characterise urban landscapes. Landscape and Urban Planning.\nSharma, S., Andersson, E., and Dennis, M. (n.d.). Qualifying and navigating urban heterogeneity for biodiversity. Ecography.\n\n\n\nSharma, S., Andersson, E., and Dennis, M. (n.d.). How scales matter? Urban ecological qualities for birds. Ecosphere.\nSharma, S., Joshi, P.K., and Fürst, C. (n.d.). Rampant or ecological? Urban growth pathways in Himalaya. Ecological Indicators.\n\n\n\n\n\nIf you are working on something where cities and their nature, forest, and spatial data intersect & feel I could be a good addition to your team/projects - I would love to have a chat.\n📧 ssonalipduoh@gmail.com  ·  LinkedIn  ·  +49 152 160 44085  ·  +358 45 851 2118\n📍 Goslar, Germany | 📍 Helsinki, Finland · Open to on-site roles in Germany, Finland; and remote across Europe and beyond.\nThis portfolio is actively growing — new projects and notebooks added regularly."
+  },
+  {
+    "objectID": "index.html#work-experiences",
+    "href": "index.html#work-experiences",
+    "title": "Dr. Sonali Sharma",
+    "section": "",
+    "text": "University of Helsinki, Finland\n\n\nSep 2023 – Oct 2025\n\n\nGIS workflow design and automation integrating LiDAR and high-resolution land cover data, reducing processing time by 70%. Reproducible machine learning pipeline development for 3D urban and nature spatial analysis. Spatial analysis of bird biodiversity data, linking species occurrence with urban structural heterogeneity to derive planning-relevant insights. Interdisciplinary project coordination with the Finnish Environment Institute, delivering actionable map products and scientific outputs. Stakeholder engagement and findings presentation at workshops and conferences.\n\n\nPythonRLiDARHPCQ/ArcGISMachine learning 3D Urban typologyHybrid associationsStakeholder engagementScientific reportingUrban biodiversity planning\n\n\n\n\n\n\n\n\n\n\nMartin-Luther-Universität Halle-Wittenberg, Germany\n\n\nAug 2020 – Sep 2021\n\n\nDAAD Bi-national Fellowship recipient. Led research on future plausible urban growth and climate change scenarios and their implications on ecosystem services. Worked with German research teams and presented at international conferences focused on sustainability and geospatial methods.\n\n\nArcGISPythonRGoogle Earth EngineIPCC climate scenariosUrban growth modelling\n\n\n\n\n\n\n\n\n\n\nJawaharlal Nehru University, New Delhi, India\n\n\nAug 2018 – Jun 2023\n\n\nModelled urban ecosystem services — soil erosion, flood regulation, heat regulation, and carbon sequestration in two Himalaya landscapes. Integrated multi-source datasets (climate, land cover, remote sensing) for urban growth and heat island studies. Mentored junior researchers in GIS workflows and data processing.\n\n\nArcGISPythonRGoogle Earth EngineEcosystem ServicesWatershed modellingSpatio-temporal assessmentSocio-economic dataHeat island mapping"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Dr. Sonali Sharma",
+    "section": "",
+    "text": "How Many Trees — and How Tall Are the Buildings?  Automated Urban Structure Inventory from LiDAR\n\nLiDAR · Individual Tree Detection · Crown Delineation · Building Heights · Green Infrastructure\n\nUrban green planners spends hundreds of Euros on manual tree surveys. This pipeline turns a single open-access LiDAR file into a complete complete urban structure inventory — 872 individual trees mapped with locations, heights, and crown extents, alongside wall-to-wall building heights — in one reproducible notebook run. Ready to feed directly into green infrastructure audits, urban heat mitigation plans, shadow modelling or carbon accounting workflows.\nView notebook →\n\n\n\n\n\n\n\nHow much Carbon does your urban forest store?  Wall-to-Wall Carbon Mapping from LiDAR\n\nLiDAR Carbon mapping · Repola allometrics · IPCC Tier-1 carbon conversion · Voluntary Carbon Markets\n\nMunicipal climate accounts and voluntary carbon markets demand spatially explicit, auditable carbon estimates — not averages extrapolated from field plots. This pipeline goes from a single open-access LiDAR tile to a wall-to-wall carbon stock map at individual tree resolution across an urban forest site in Helsinki. Every tree counted, every tonne traceable — and fully scalable to landscape-wide coverage with additional tiles.\nView notebook →\n\n\n\n\n\n\n\nCan GeoAI replace LiDAR for Urban Canopy Mapping?  A Pixel-Level Validation\n\nLiDAR · GeoAI · Deep Learning · Canopy Height Model · Accuracy Assessment · Residual Mapping · Urban\n\nLiDAR is accurate but not freely omnipresent yet. Deep learning models trained on aerial imagery promise a cheaper, scalable alternative — but do they actually hold up? This notebook delivers a pixel-level validation of GeoAI’s SSL-pretrained canopy height model against airborne LiDAR as ground truth across a Helsinki urban neighbourhood.\nView notebook →\n\n\n\n\n\n\n\nCan GeoAI replace LiDAR in a forest?  A Pixel-Level Validation\n\nLiDAR · GeoAI · Deep Learning · Canopy Height Model · Accuracy Assessment · Residual Mapping · Forest\n\nLiDAR is accurate but not freely omnipresent yet. Deep learning models trained on aerial imagery promise a cheaper, scalable alternative — but do they hold up in dense forest where the canopy is closed and individual crowns are harder to resolve? This notebook delivers a pixel-level validation of GeoAI’s SSL-pretrained canopy height model against airborne LiDAR as ground truth across a Helsinki forested site.\nView notebook →\n\n\n\n\n\n\n\nHow different Housing Types look in 3-D?  3D urban-green typologies — Nordic residential areas\n\nLiDAR · 3D Urban Typology · Green Infrastructure · Vegetation Structure ·Lahti\n\nNot all residential areas relate to green infrastructure the same way — and planning that ignores this distinction misses where and what to investment is most needed. This project explored five LiDAR-based urban-green typologies. A direct planning tool for identifying which housing types need which vegetation layer — shrub, sub-canopy, or canopy — and where. View full project →\n\n\n\n\n\n\n\nHow does Helsinki Metropolitan region look like 3-D?  Urban Residential Typology — Built-Vegetation Hybrid Associations\n\nTransfer learning · CNN · LiDAR · 2 m LULC · Under review\n\nA scalable residential typology of built-vegetation hybrid associations across the Helsinki Metropolitan Area — combining transfer learning with building and vegetation height information at planning scale. Can GeoAI help design better cities by identifying green infrastructure needs at planning scale? Do green infrastructure needs fundamentally differ between detached housing and high-rise flats? Which housing types need investment and what vegetation layers — shrub, sub-canopy, or canopy — are missing?\nCode releasing on paper acceptance\n\n\n\n\n\n\n\nHow did urbanisation unfold in Indian Western Himalaya over past two decades?  Spatio-temporal LULC assessment\n\nLand Cover Change · Sentinel · Aster DEM · Published | Land (2022)\n\nUnplanned urban growth in mountain cities rarely makes headlines. Two decades of urbanisation-induced land cover change mapped at species-level resolution across Dharamshala and Pithoragarh using open-source satellite data. Quantified what, how much, and where natural and semi-natural land units were lost — directly actionable for mountain city planners.\nView full project →\n\n\n\n\n\n\n\nWhat could the Western Himalayan landscapes look like by 2040?  Future Studies: Urban growth scenarios\n\nIDRISI/TerrSet · ArcGIS\n\nUnplanned growth in mountain cities rarely follows a single path — but planners need to see all of them. Three plausible futures — Business As Usual, Ecosystem Protection, Development-First. Spatial maps designed for stakeholder deliberation: What does each plausible path look like on the ground by 2040?\nView full project →\n\n\n\n\n\n\n\nWhere can Himalayan cities grow without compromising ecosystem resilience?  Past, Present & Future of Ecosystem Services — Western Himalaya\n\nEcosystem Services · Flood Regulation · Carbon Sequestration · Soil Erosion · Heat Mitigation · Climate Scenarios\n\nFlood regulation, carbon sequestration, soil erosion, and heat mitigation — spatio-temporally quantified, hotspot-mapped, and projected under three combined planning and climate change scenarios across two Himalayan urban landscapes. Which areas are crucial for each ecosystem service? Where can development expand without compromising ecosystem resilience?\nView full project →\n\n\n\n\n\n\n\nDo smaller satellite towns run hotter than the planned city next door?  Urban Heat Island — Chandigarh & Satellite Towns (1992–2019)\n\nLand Surface Temperature · LULC · Ecological Quality · Landsat\n\nCounter-intuitive finding: smaller satellite towns had worse heat islands than the larger planned city. Green space distribution matters more than total area — direct implications for satellite town masterplanning across South Asia.\nView full project →"
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Dr. Sonali Sharma",
+    "section": "",
+    "text": "Dennis, M., Huck, J., Holt, C., McHenry, E., Andersson, E., Sharma, S., and Haase, D. (2026). In search of Schrödinger’s patch: A functional approach to habitat delineation. Landscape Ecology, 41, 36.\nDennis, M., Huck, J., Holt, C., McHenry, E., Andersson, E., Sharma, S., and Haase, D. (2026). Beyond the patch: Leveraging the notion of realized habitat in fragmentation-biodiversity research. Landscape Ecology, 41, 37.\nSharma, S., Joshi, P.K., and Fürst, C. (2022). Exploring multiscale influence of urban growth on landscape patterns of two emerging urban centres in the Western Himalaya. Land, 11, 2281.\nSharma, S., Joshi, P.K., and Fürst, C. (2022). Unravelling net primary productivity dynamics under urbanization and climate change in the Western Himalaya. Ecological Indicators, 144, 109508.\nSharma, S., Sharma, M., Anees, M.M., and Joshi, P.K. (2020). Longitudinal study of changes in ecosystem services in a city of lakes, Bhopal, India. Energy, Ecology and Environment, 6, 408–424.\nSharma, S., Nahid, S., Sannigarhi, S., Sharma, M., Anees, M.M., Sharma, R., Shekhar, R., Joshi, P.K., Basu, A.S., Pilla, F., and Basu, B. (2020). A long-term and comprehensive assessment of urbanization-induced impacts on ecosystem services in the capital city of India. City and Environment Interactions, 7, 1-12, 100047.\n\n\n\nSharma, S., Maija, T., and Andersson, E. (n.d.). Situating private urban green spaces — using transfer learning to characterise urban landscapes. Landscape and Urban Planning.\nSharma, S., Andersson, E., and Dennis, M. (n.d.). Qualifying and navigating urban heterogeneity for biodiversity. Ecography.\n\n\n\nSharma, S., Andersson, E., and Dennis, M. (n.d.). How scales matter? Urban ecological qualities for birds. Ecosphere.\nSharma, S., Joshi, P.K., and Fürst, C. (n.d.). Rampant or ecological? Urban growth pathways in Himalaya. Ecological Indicators."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Dr. Sonali Sharma",
+    "section": "",
+    "text": "If you are working on something where cities and their nature, forest, and spatial data intersect & feel I could be a good addition to your team/projects - I would love to have a chat.\n📧 ssonalipduoh@gmail.com  ·  LinkedIn  ·  +49 152 160 44085  ·  +358 45 851 2118\n📍 Goslar, Germany | 📍 Helsinki, Finland · Open to on-site roles in Germany, Finland; and remote across Europe and beyond.\nThis portfolio is actively growing — new projects and notebooks added regularly."
+  },
+  {
+    "objectID": "projects/urban-typologies.html",
+    "href": "projects/urban-typologies.html",
+    "title": "3D Urban Typologies — Nordic Residential Areas",
+    "section": "",
+    "text": "Urban planning decisions about green infrastructure are typically made using 2D land cover maps — which tell you where trees are but not how tall they are relative to buildings, how dense the canopy is, or how the vertical structure of a neighbourhood shapes the micro-environment experienced by both people and wildlife.\nIn Nordic cities, where residential areas vary enormously — from low-rise detached housing with garden trees to mid-rise apartment blocks with courtyard vegetation to park-dominated neighbourhoods with mature forest canopy — this 2D view misses the ecologically and planning-relevant variation that actually matters.\nThis postdoctoral research developed a novel approach to characterise 3D urban heterogeneity from airborne LiDAR — simultaneously capturing building height, vegetation height, and their spatial interplay across residential neighbourhoods in Helsinki."
+  },
+  {
+    "objectID": "projects/urban-typologies.html#the-problem",
+    "href": "projects/urban-typologies.html#the-problem",
+    "title": "3D Urban Typologies — Nordic Residential Areas",
+    "section": "",
+    "text": "Urban planning decisions about green infrastructure are typically made using 2D land cover maps — which tell you where trees are but not how tall they are relative to buildings, how dense the canopy is, or how the vertical structure of a neighbourhood shapes the micro-environment experienced by both people and wildlife.\nIn Nordic cities, where residential areas vary enormously — from low-rise detached housing with garden trees to mid-rise apartment blocks with courtyard vegetation to park-dominated neighbourhoods with mature forest canopy — this 2D view misses the ecologically and planning-relevant variation that actually matters.\nThis postdoctoral research developed a novel approach to characterise 3D urban heterogeneity from airborne LiDAR — simultaneously capturing building height, vegetation height, and their spatial interplay across residential neighbourhoods in Helsinki."
+  },
+  {
+    "objectID": "projects/urban-typologies.html#approach",
+    "href": "projects/urban-typologies.html#approach",
+    "title": "3D Urban Typologies — Nordic Residential Areas",
+    "section": "Approach",
+    "text": "Approach\nUsing LiDAR-derived point clouds processed on HPC infrastructure, I extracted height profiles for both buildings and vegetation at fine spatial resolution across the city. A deep learning clustering pipeline then grouped neighbourhoods into urban typologies — distinct structural configurations that recur across the city and carry different implications for ecological function.\nTools: Python · R · LiDAR · HPC (SLURM/Linux) · deep learning\nData: Airborne LiDAR point cloud · Helsinki City open data\nScale: Individual neighbourhood buffers · city-wide coverage"
+  },
+  {
+    "objectID": "projects/urban-typologies.html#five-urban-typologies",
+    "href": "projects/urban-typologies.html#five-urban-typologies",
+    "title": "3D Urban Typologies — Nordic Residential Areas",
+    "section": "Five urban typologies",
+    "text": "Five urban typologies\n\n\n\n\n\n\nFive 3D urban typologies derived from LiDAR — showing simultaneous vegetation height (orange to dark green) and building height (light blue to dark red) across representative neighbourhood buffers\n\n\n\n\n\nEach circular buffer represents a distinct typology:\n\n\n\n\n\n\n\n\nTypology\nCharacter\nEcological implication\n\n\n\n\nA\nLow-rise buildings · scattered low-medium trees · open structure\nHigh light penetration · shrub and ground flora habitat\n\n\nB\nMixed building heights · medium tree canopy · moderate density\nTransitional structure · moderate biodiversity potential\n\n\nC\nLarge footprint buildings · sparse vegetation · dominated by built surface\nLow green connectivity · heat island risk\n\n\nD\nMid-rise blocks · courtyard structure · medium vegetation patches\nEnclosed green spaces · microclimate moderation\n\n\nE\nLow-rise buildings embedded in tall mature forest canopy\nHighest structural complexity · strongest biodiversity support\n\n\n\nThe contrast between typologies A and E illustrates the core finding — neighbourhoods with equivalent building densities can have radically different ecological characters depending on the height and spatial configuration of their vegetation."
+  },
+  {
+    "objectID": "projects/urban-typologies.html#why-this-matters-for-planning",
+    "href": "projects/urban-typologies.html#why-this-matters-for-planning",
+    "title": "3D Urban Typologies — Nordic Residential Areas",
+    "section": "Why this matters for planning",
+    "text": "Why this matters for planning\nThese typologies are not just descriptive — they are planning tools. By mapping which typology each neighbourhood belongs to, city planners can:\n\nIdentify where nature-based solutions interventions would have the greatest impact (typology C and D areas with low green structure)\nPrioritise protection of high-value areas (typology E — mature forest-embedded neighbourhoods are irreplaceable on planning timescales)\nSet evidence-based targets for green infrastructure in new developments, referenced against the typology spectrum\n\nThe typologies were synthesised to support nature-based solutions planning in Nordic residential areas — connecting 3D urban morphology to regulating and cultural ecosystem services as entry points to broader socio-ecological planning frameworks."
+  },
+  {
+    "objectID": "projects/urban-typologies.html#publications-and-status",
+    "href": "projects/urban-typologies.html#publications-and-status",
+    "title": "3D Urban Typologies — Nordic Residential Areas",
+    "section": "Publications and status",
+    "text": "Publications and status\n\nSharma, S., Maija, T., and Andersson, E. (n.d.). Situating private urban green spaces — using transfer learning to characterise urban landscapes. Under review in Urban Forestry and Urban Greening.\n\nBiodiversity buffer analysis connecting these typologies to bird community patterns — coming soon."
+  },
+  {
+    "objectID": "projects/ecosystem-services.html",
+    "href": "projects/ecosystem-services.html",
+    "title": "Ecosystem Services Mapping — Western Himalaya",
+    "section": "",
+    "text": "Urban planners in Himalayan cities rarely have spatially explicit data on what the surrounding landscape actually does for them — how much runoff the forests absorb, how much carbon the vegetation sequesters, how much cooler the city stays because of tree cover. Without this, ecosystem services are invisible in planning decisions.\nThis project made them visible."
+  },
+  {
+    "objectID": "projects/ecosystem-services.html#the-problem",
+    "href": "projects/ecosystem-services.html#the-problem",
+    "title": "Ecosystem Services Mapping — Western Himalaya",
+    "section": "",
+    "text": "Urban planners in Himalayan cities rarely have spatially explicit data on what the surrounding landscape actually does for them — how much runoff the forests absorb, how much carbon the vegetation sequesters, how much cooler the city stays because of tree cover. Without this, ecosystem services are invisible in planning decisions.\nThis project made them visible."
+  },
+  {
+    "objectID": "projects/ecosystem-services.html#four-services-two-cities-four-time-points",
+    "href": "projects/ecosystem-services.html#four-services-two-cities-four-time-points",
+    "title": "Ecosystem Services Mapping — Western Himalaya",
+    "section": "Four services, two cities, four time points",
+    "text": "Four services, two cities, four time points\nI modelled and mapped four regulation ecosystem services (RES) across Dharamshala (DM) and Pithoragarh (PG) at four time points (2001/2002, 2008/2010, 2016, 2021), capturing how urbanisation has eroded each service over two decades.\n\n\n\n\n\n\n\n\nService\nWhat it measures\nModel / proxy\n\n\n\n\nSER — Soil erosion regulation\nCapacity to prevent soil loss\nMorgan-Morgan-Finney model · soil loss (tons/m²)\n\n\nFR — Flood regulation\nCapacity to modulate runoff from heavy rainfall\nModified SCS-CN model adapted for mountain terrain · runoff potential (mm/m²)\n\n\nCS — Carbon sequestration\nCarbon captured and stored by vegetation\nCASA model · ESTARFM fusion (MODIS + Landsat 30 m) · NPP (gC/m²)\n\n\nLCR — Local climate regulation\nVegetation-mediated cooling of ambient temperature\nLand surface temperature index · urban boundary delineation\n\n\n\nThe flood regulation model used a mountain-adapted modification of the SCS curve number approach (Azmal et al. 2020) — standard SCS-CN models underestimate runoff in steep terrain, so this adaptation was essential for realistic estimates in Himalayan landscapes."
+  },
+  {
+    "objectID": "projects/ecosystem-services.html#maps-spatiotemporal-patterns",
+    "href": "projects/ecosystem-services.html#maps-spatiotemporal-patterns",
+    "title": "Ecosystem Services Mapping — Western Himalaya",
+    "section": "Maps — spatiotemporal patterns",
+    "text": "Maps — spatiotemporal patterns\n\n\n\n\n\n\nDharamshala — four RES across four time points (2001–2021)\n\n\n\n\n\n\n\nPithoragarh — four RES across four time points (2002–2021)\n\n\n\n\n\nEach row is a time point; each column is a service. Reading down any column shows how that service has changed as the city grew. Reading across any row shows the spatial co-occurrence of services — where high-value areas for one service overlap with others, revealing multi-functional landscape patches worth prioritising for protection."
+  },
+  {
+    "objectID": "projects/ecosystem-services.html#hotspot-and-coldspot-analysis",
+    "href": "projects/ecosystem-services.html#hotspot-and-coldspot-analysis",
+    "title": "Ecosystem Services Mapping — Western Himalaya",
+    "section": "Hotspot and coldspot analysis",
+    "text": "Hotspot and coldspot analysis\nBeyond the maps, I identified statistically significant spatial clusters of high-value (hotspots) and low-value (coldspots) areas for each service using local spatial autocorrelation. These hotspot maps are the most planning-actionable output — they tell a city planner exactly where to focus protection efforts.\n\n\n\n\n\n\nHotspots and coldspots — Dharamshala\n\n\n\n\n\n\n\nHotspots and coldspots — Pithoragarh"
+  },
+  {
+    "objectID": "projects/ecosystem-services.html#future-ecosystem-services-under-growth-scenarios",
+    "href": "projects/ecosystem-services.html#future-ecosystem-services-under-growth-scenarios",
+    "title": "Ecosystem Services Mapping — Western Himalaya",
+    "section": "Future ecosystem services under growth scenarios",
+    "text": "Future ecosystem services under growth scenarios\nThe same services were projected forward to 2040 under the three urban growth scenarios modelled in the urban growth project — BAU, ESP, and SED. This closes the loop: the scenario maps show where land cover changes; the future ES maps show what those changes cost in terms of flood protection, carbon, and climate regulation.\n\n\n\n\n\n\nPithoragarh — future SER and FR under growth scenarios\n\n\n\n\n\n\n\nPithoragarh — future CS and LCR under growth scenarios\n\n\n\n\n\n\n\n\n\n\n\nDharamshala — future SER and FR under growth scenarios\n\n\n\n\n\n\n\nDharamshala — future CS and LCR under growth scenarios"
+  },
+  {
+    "objectID": "projects/ecosystem-services.html#key-findings",
+    "href": "projects/ecosystem-services.html#key-findings",
+    "title": "Ecosystem Services Mapping — Western Himalaya",
+    "section": "Key findings",
+    "text": "Key findings\nRegulation ecosystem services declined across both cities over the study period, with the steepest losses in flood regulation and local climate regulation — the two services most directly tied to vegetation cover in built-up areas. Under the BAU and SED scenarios, these losses accelerate substantially by 2040. The ESP scenario retains significantly more ES capacity, particularly in the forest buffer zones identified as hotspots in the current analysis."
+  },
+  {
+    "objectID": "projects/ecosystem-services.html#publications",
+    "href": "projects/ecosystem-services.html#publications",
+    "title": "Ecosystem Services Mapping — Western Himalaya",
+    "section": "Publications",
+    "text": "Publications\n\nSharma, S., Joshi, P.K., and Fürst, C. (2022). Unravelling net primary productivity dynamics under urbanisation and climate change in the Western Himalaya. Ecological Indicators, 144, 109508."
+  }
+]
