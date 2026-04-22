@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Land Use / Land Cover Change — Western Himalaya – Dr.&nbsp;Sonali Sharma</title>
+<title>How did urbanisation unfold in the Indian Western Himalaya over two decades? – Dr.&nbsp;Sonali Sharma</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -141,8 +141,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Land Use / Land Cover Change — Western Himalaya</h1>
-<p class="subtitle lead">Two decades of urban expansion mapped across Dharamshala and Pithoragarh (2002–2021)</p>
+<h1 class="title">How did urbanisation unfold in the Indian Western Himalaya over two decades?</h1>
+<p class="subtitle lead">Land use and land cover change mapped across Dharamshala and Pithoragarh (2002–2021)</p>
 </div>
 
 
@@ -159,19 +159,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="the-problem" class="level2">
-<h2 class="anchored" data-anchor-id="the-problem">The problem</h2>
-<p>The Western Himalaya is urbanising rapidly — but in the early 2010s, locally calibrated, high-resolution spatial data on <em>how</em> these cities were growing simply did not exist. National datasets were too coarse. Remote sensing products were untested for mountain terrain. Planning decisions were being made without spatial evidence.</p>
-<p>This project filled that gap.</p>
+<section id="the-planning-challenge" class="level2">
+<h2 class="anchored" data-anchor-id="the-planning-challenge">The Planning Challenge</h2>
+<p>Himalayan mountain cities are among the most rapidly urbanising landscapes in South Asia. Yet planning decisions on road corridors, drainage, forest buffers, and settlement expansion are often made without spatially explicit, locally calibrated evidence of <em>what</em> was being lost and <em>how fast</em>.</p>
+<p>The problem is compounded by scale: previous remote sensing studies of Himalayan urbanisation focused almost exclusively on large cities. Medium-sized towns — where the UN projects most future urbanisation will occur — were a blind spot. No one had mapped, at high resolution and across multiple time points, how the landscape of a Himalayan hill station was actually being restructured by tourism, road investment, and population pressure.</p>
+<p>This study addressed that gap with a rigorous, two-decade, multiscale land cover record built entirely from open-access satellite data to support spatial framework for sustainable landscape development in mountain cities.</p>
 <hr>
 </section>
-<section id="what-i-did" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-did">What I did</h2>
-<p>Using multi-date Landsat imagery processed in Google Earth Engine and classified in ArcGIS, I mapped land use and land cover across two contrasting Himalayan cities — <strong>Dharamshala (DM)</strong> and <strong>Pithoragarh (PG)</strong> — at four time points: 2002, 2010, 2016, and 2021.</p>
-<p>The classification distinguished 12 land cover classes including Deodar forest, Pine, Oak, mixed forest types, glaciated regions, cropland, slate mines, dry river beds, and built-up areas — capturing the full ecological complexity of mountain landscapes rather than collapsing them into generic “forest / non-forest” categories.</p>
-<p><strong>Tools:</strong> Google Earth Engine · ArcGIS · QGIS · R<br>
-<strong>Data:</strong> Landsat 5, 7, 8 · topographic data · field validation points<br>
-<strong>Cities:</strong> Dharamshala and Pithoragarh, Himachal Pradesh and Uttarakhand, India</p>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p><strong>Study sites:</strong> Two contrasting rapidly urbanising landscapes in the Indian Western Himalaya were selected to ensure findings were transferable across governance and topographic contexts:</p>
+<ul>
+<li><strong>Dharamshala, Himachal Pradesh</strong> (311 km² study area) — a tourism- and policy-driven hill station with linear valley corridor growth, designated India’s first Smart City in its state (2015) and winter capital of Himachal Pradesh (2017).</li>
+<li><strong>Pithoragarh, Uttarakhand</strong> (90.74 km² study area) — a border district headquarters with radial sprawl constrained by ridgelines, ranked first for population and household growth among similar altitude towns in Uttarakhand.</li>
+</ul>
+<p><strong>Classification:</strong> Multi-temporal high-spatial-resolution satellite imagery (Sentinel-2A at 10 m, ASTER at 15 m) was acquired at four time points spanning 2001–2021 and processed using maximum likelihood classification (MLC) with stratified random sampling validation (250 ground reference points per map). Classification accuracy ranged from <strong>89.64% to 95.31%</strong> across all maps.</p>
+<p>Rather than collapsing mountain vegetation into generic “forest / non-forest” bins, the classification resolved <strong>12 ecologically meaningful land cover classes</strong> for Dharamshala — Deodar, Oak, Pine, Oak Mixed, Pine Mixed, Mixed Forest, Vegetation, Glaciated Region, Cropland, Open Area, Barren Land, and Built-up — and 8 classes for Pithoragarh. This species-level resolution makes the outputs usable for biodiversity corridor planning and ecosystem service modelling, not just urbanisation monitoring.</p>
+<p><strong>Analysis framework:</strong> Three complementary methods were applied:</p>
+<ol type="1">
+<li><strong>Multitemporal LULC mapping</strong> at city and sub-watershed scales — capturing both compact core dynamics and sprawl into outer zones</li>
+</ol>
+<p><strong>Tools:</strong> Google Earth Engine · ArcGIS · QGIS · ENVI · CARTOSAT-DEM · Bhuvan geo-platform</p>
 <hr>
 </section>
 <section id="maps" class="level2">
@@ -196,19 +204,41 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>The red built-up patches expand visibly between 2002 and 2021 — concentrated along valley floors and road corridors, progressively replacing cropland and fragmenting forest patches. Glaciated regions (light blue) show measurable recession over the same period.</p>
-<hr>
+<p>In Dharamshala (left), red built-up patches expand steadily from the valley floor upward — concentrated along road corridors, replacing cropland and fragmenting the Oak and Mixed Forest patches that dominate the mid-slopes. In Pithoragarh (right), urban growth radiates outward from a compact 2001 core, spreading in all directions across the Saur valley by 2021 — absorbing cropland and dry river bed areas while the Oak and Pine forest at the periphery remains comparatively intact, reflecting the protective effect of reserved forest status under the Indian Forest Act. —</p>
 </section>
 <section id="key-findings" class="level2">
-<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
-<p>Built-up area expanded significantly in both cities over the two decades, with the steepest growth between 2010 and 2021. Urban expansion in Dharamshala followed a linear corridor pattern along the main road axis; Pithoragarh showed more radial sprawl constrained by topography. Forest fragmentation — particularly of Pine and Oak-mixed classes — was measurable even within the 19-year window, with implications for biodiversity corridors and ecosystem service provision in both landscapes.</p>
+<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
+<p><strong>Scale of expansion</strong></p>
+<ul>
+<li>Built-up area increased by <strong>104% in Dharamshala</strong> and <strong>387% in Pithoragarh</strong> over the two decades — a near-fivefold expansion in the smaller city.</li>
+<li>The steepest acceleration in both cities occurred during the <strong>second decade (2010–2021)</strong>, coinciding with road infrastructure investment, tourism growth, and government-directed urban designation decisions.</li>
+</ul>
+<p><strong>What land was lost</strong></p>
+<ul>
+<li>In <strong>Dharamshala</strong>, urban expansion consumed cropland first, followed by vegetation and forest. Forest, vegetation, and cropland lost <strong>1%, 2%, and 17%</strong> of their respective areas.</li>
+<li>In <strong>Pithoragarh</strong>, urban expansion targeted cropland followed by vegetation, with forest, vegetation, and cropland losses of <strong>15%, 11%, and 15%</strong>.</li>
+<li>Cropland bore the primary conversion cost in both cities — the agricultural buffer between urban cores and forested slopes was the first and most actively targeted land class.</li>
+</ul>
+<p><strong>Growth morphology diverged by topography</strong></p>
+<ul>
+<li><strong>Pithoragarh</strong> evolved as a <strong>single-core expansion</strong>, with built-up patches connecting and aggregating in all directions from the city centre — a continuous, radial sprawl pattern.</li>
+<li><strong>Dharamshala</strong> exhibited <strong>multi-core network expansion</strong> — with scattered newer built-up patches emerging beyond city limits, particularly in the western direction, interlaced with cropland and forest fragments.</li>
+</ul>
+<hr>
+</section>
+<section id="planning-inputs-real-world-impact" class="level2">
+<h2 class="anchored" data-anchor-id="planning-inputs-real-world-impact">Planning Inputs &amp; Real-world Impact</h2>
+<p>This study produces decision-ready spatial intelligence across five planning domains:</p>
+<p><strong>1. Urban growth boundary definition</strong> Two decade long trjectory identifying <em>which periods</em> and <em>which regions</em> are most actively targeted — provides the empirical baseline for defensible, spatially grounded urban growth boundaries. This evidence directly supports municipal masterplan revision and boundary setting.</p>
+<p><strong>2. Forest protection planning</strong> Species-level forest class maps (Deodar, Pine, Oak, mixed types) pinpoint exactly where specific forest types have been lost or fragmented by urban expansion. The accelerating forest loss during Dharamshala’s high-growth decade is a measurable early warning signal for conservation planning and buffer zone demarcation under India’s Forest Conservation Act.</p>
+<p><strong>3. Slope stability and disaster risk screening</strong> Cropland-to-built-up conversion on steep Himalayan terrain is a leading indicator of landslide and flood exposure. Class-level change maps can be overlaid with slope, aspect, and drainage data to flag high-risk expansion zones <em>before</em> construction permits are issued — shifting from reactive disaster response to spatial pre-screening.</p>
+<p><strong>4. Ecosystem service accounting and trade-off analysis</strong> Species-level forest data and cropland loss estimates feed directly into carbon sequestration, flood regulation, local climate regulation, and soil erosion models (see the Ecosystem Services project). Planners can now quantify <em>what ecosystem services are being traded away</em> with each land conversion decision — a critical input for environmental impact assessments (EIA) and municipal-level SDG reporting.</p>
 <hr>
 </section>
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
 <ul>
-<li><p><strong>Sharma, S.</strong>, Joshi, P.K., and Fürst, C. (2022). Exploring multiscale influence of urban growth on landscape patterns of two emerging urban centres in the Western Himalaya. <em>Land</em>, 11, 2281.</p></li>
-<li><p><strong>Sharma, S.</strong>, Joshi, P.K., and Fürst, C. (2022). Unravelling net primary productivity dynamics under urbanisation and climate change in the Western Himalaya. <em>Ecological Indicators</em>, 144, 109508.</p></li>
+<li><strong>Sharma, S.</strong>, Joshi, P.K., and Fürst, C. (2022). Exploring multiscale influence of urban growth on landscape patterns of two emerging urban centres in the Western Himalaya. <em>Land</em>, 11, 2281. <a href="https://doi.org/10.3390/land11122281">https://doi.org/10.3390/land11122281</a></li>
 </ul>
 
 
