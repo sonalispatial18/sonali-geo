@@ -321,6 +321,19 @@ LiDAR · GeoAI · Deep Learning · Canopy Height Model · Accuracy Assessment ·
 </div>
 <div class="project-card">
 <div class="project-card-img">
+<p><img src="images/helsinki-canopy/03_income_canopy_screening_2024.png" class="img-fluid"></p>
+</div>
+<div class="project-card-body">
+<em>Does income decide who lives under Helsinki’s mature trees?</em> <br><br> <strong>Urban Nature Inequality — Income &amp; Residential Tree Canopy</strong>
+<p class="card-tags">
+Open Data · HSY WFS · Residential Canopy · Income Equity · Spatial Screening · GeoPandas
+</p>
+<p>Are Helsinki’s leafier neighbourhoods also its wealthier ones? This fully reproducible pipeline measures mature tree canopy (≥ 10 m) on <strong>residential land</strong> across every sub-district and tests it against median income. The city-wide signal is essentially flat (Spearman ρ ≈ 0.01) — income alone does not explain residential tree cover. Yet a tercile screening still pinpoints the sub-districts carrying a <em>double disadvantage</em> — lower income <strong>and</strong> lower canopy — the natural first targets for urban greening.</p>
+<p><a href="https://github.com/sonalispatial18/helsinki-residential-canopy">View code on GitHub →</a></p>
+</div>
+</div>
+<div class="project-card">
+<div class="project-card-img">
 <p><img src="images/urban-typology/Untitled.png" class="img-fluid"></p>
 </div>
 <div class="project-card-body">
@@ -552,7 +565,7 @@ In progress (2)
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/sonalispatial18\.github\.io\/sonali-geo\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
