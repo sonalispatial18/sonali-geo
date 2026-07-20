@@ -205,6 +205,30 @@ model against airborne LiDAR as ground truth across a Helsinki forested site.
 <div class="project-card">
 <div class="project-card-img">
 
+![](images/helsinki-canopy/03_income_canopy_screening_2024.png)
+
+</div>
+<div class="project-card-body">
+
+*Does income decide who lives under Helsinki's mature trees?* <br><br>
+**Urban Nature Inequality — Income & Residential Tree Canopy**
+<p class="card-tags">Open Data · HSY WFS · Residential Canopy · Income Equity · Spatial Screening · GeoPandas</p>
+
+Are Helsinki's leafier neighbourhoods also its wealthier ones? This fully reproducible pipeline
+measures mature tree canopy (≥ 10 m) on **residential land** across every sub-district and tests it
+against median income. The city-wide signal is essentially flat (Spearman ρ ≈ 0.01) — income alone
+does not explain residential tree cover. Yet a tercile screening still pinpoints the sub-districts
+carrying a *double disadvantage* — lower income **and** lower canopy — the natural first targets for
+urban greening.
+
+[View code on GitHub →](https://github.com/sonalispatial18/helsinki-residential-canopy)
+
+</div>
+</div>
+
+<div class="project-card">
+<div class="project-card-img">
+
 ![](images/urban-typology/Untitled.png)
 
 </div>
