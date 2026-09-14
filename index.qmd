@@ -5,9 +5,9 @@ title: ""
 <div class="hero-section">
 
 <div class="hero-photo-col">
-<img src="images/profile1.jpg" class="hero-photo" alt="Sonali Sharma"/>
+<img src="images/profile2.jpg" class="hero-photo" alt="Sonali Sharma"/>
 <div class="hero-links">
-<a href="mailto:ssonalipduoh@gmail.com">📧 Email</a>
+<a href="mailto:sonali.sharma@web.de">📧 Email</a>
 <a href="https://www.linkedin.com/in/sonali-sharma-50220210b/">LinkedIn</a>
 <a href="cv/SonaliSharma_CV.pdf">Download CV</a>
 </div>
@@ -17,14 +17,15 @@ title: ""
 
 # Sonali Sharma
 
-I am a Geospatial Analyst and Urban ecologist actively seeking opportunities to deliver nature-positive and climate resilient
+I am a Geospatial and Environmental Scientist actively seeking professional opportunities in Germany to deliver nature-positive and climate resilient
 solutions at the intersection of Earth observation, GeoAI and Environmental planning. 
-With 7+ years of experience, I specialize in transforming complex 2D & 3D spatial data into planning-relevant
+With 8+ years of experience, I specialize in transforming complex 2D & 3D spatial data into planning-relevant decision
 insights that cities, regions and nature need. I have built geospatial workflows connecting LiDAR, high resolution land cover
 and socio-economic data for urban and nature environments.
 
-I hold a PhD in Environmental Sciences and bring international work experiences across India, Germany, and Finland.
+I hold a PhD in Environmental Sciences and bring international research and industry experiences across India, Germany, and Finland.
 My work is driven by the aim of using spatial analysis as a bridge between data, eco-environmental systems, and decision-making.
+
 With spatial skillsets, interdisciplinary background and cross-cultural adaptability, I am particularly interested 
 to be part of organisations where geospatial intelligence can support climate adaptation, 
 biodiversity-sensitive and nature-based solutions planning.
@@ -53,8 +54,20 @@ biodiversity-sensitive and nature-based solutions planning.
 
 ## Work Experiences
 
-
 <div class="timeline">
+
+<div class="timeline-item">
+<div class="timeline-dot filled"></div>
+<div class="timeline-card">
+<h3 class="tl-title">R&amp;D Engineer</h3>
+<div class="tl-org">Terrasolid Oy, Espoo, Finland</div>
+<div class="tl-date">July 2026 – Present</div>
+<p>Develop and test LiDAR-processing workflows using Terrasolid software for airborne, mobile and terrestrial point-cloud applications. Design automated TerraScan macros for point-cloud classification, quality control and the identification of artefacts such as low points, multipath errors and glass-roof reflections. Develop workflows for urban tree inventories, above-ground biomass and carbon estimation, translating research methods into practical and reproducible geospatial solutions.</p>
+<div class="tl-skills">
+<span class="skill-tag">Terrasolid Software</span><span class="skill-tag">LiDAR Processing</span><span class="skill-tag">TerraScan Macros</span><span class="skill-tag">Point-Cloud Classification</span><span class="skill-tag">Urban Tree Inventory</span><span class="skill-tag">Biomass and Carbon</span><span class="skill-tag">R&amp;D to Application</span>
+</div>
+</div>
+</div>
 
 <div class="timeline-item">
 <div class="timeline-dot filled"></div>
@@ -129,29 +142,6 @@ Ready to feed directly into green infrastructure audits, urban heat mitigation p
 or carbon accounting workflows.
 
 [View notebook →](notebooks/01_lidar_tree_detection.html)
-
-</div>
-</div>
-
-<div class="project-card">
-<div class="project-card-img">
-
-![](images/notebooks/04_AGB.jpg)
-
-</div>
-<div class="project-card-body">
-
-*How much Carbon does your urban forest store?* <br><br>
-**Wall-to-Wall Carbon Mapping from LiDAR**
-<p class="card-tags">LiDAR Carbon mapping · Repola allometrics · IPCC Tier-1 carbon conversion · Voluntary Carbon Markets</p>
-
-Municipal climate accounts and voluntary carbon markets demand spatially explicit, auditable carbon estimates — 
-not averages extrapolated from field plots.
-This pipeline goes from a single open-access LiDAR tile to a wall-to-wall carbon stock map at individual 
-tree resolution across an urban forest site in Helsinki.
-Every tree counted, every tonne traceable — and fully scalable to landscape-wide coverage with additional tiles.
-
-[View notebook →](notebooks/04_agb_carbon_mapping.html)
 
 </div>
 </div>
@@ -454,11 +444,14 @@ direct implications for satellite town masterplanning across South Asia.
 
 6. **Sharma, S.**, Nahid, S., Sannigarhi, S., Sharma, M., Anees, M.M., Sharma, R., Shekhar, R., Joshi, P.K., Basu, A.S., Pilla, F., and Basu, B. (2020). **A long-term and comprehensive assessment of urbanization-induced impacts on ecosystem services in the capital city of India.** *City and Environment Interactions*, 7, 1-12, 100047.
 
-<h3>Under review (2)</h3>
+<h3>Under review (3)</h3>
 
 1. **Sharma, S.**, Maija, T., and Andersson, E. (n.d.). Situating private urban green spaces — using transfer learning to characterise urban landscapes. *Urban Forestry and Urban Greening*.
 
 2. **Sharma, S.**, Andersson, E., and Dennis, M. (n.d.). Qualifying and navigating urban heterogeneity for biodiversity. *Ecography*.
+
+3. Tiitu M., Heikinheimo V., **Sharma S.**, Lehtoranta V., Kopperoinen L. &, Vierikko K. (n.d.). Provision and Use of Public and Private Urban Green Spaces across Urban Fabrics in the Helsinki Metropolitan Area, Finland. *Urban
+Forestry and Urban Greening*.
 
 <h3>In progress (2)</h3>
 
@@ -473,11 +466,11 @@ direct implications for satellite town masterplanning across South Asia.
 If you are working on something where cities and their nature, forest, and spatial data
 intersect & feel I could be a good addition to your team/projects - I would love to have a chat.
 
-[📧 ssonalipduoh@gmail.com](mailto:ssonalipduoh@gmail.com) &nbsp;·&nbsp;
+[📧 sonali.sharma@web.de](mailto:sonali.sharma@web.de) &nbsp;·&nbsp;
 [LinkedIn](https://www.linkedin.com/in/sonali-sharma-50220210b/) &nbsp;·&nbsp;
 [+49 152 160 44085](tel:+4915216044085) &nbsp;·&nbsp;
 [+358 45 851 2118](tel:+358458512118)
 
-📍 Goslar, Germany | 📍 Helsinki, Finland · *Open to on-site roles in Germany, Finland; and remote across Europe and beyond.*
+📍 Goslar, Germany | *Open to on-site roles in Germany and remote across Europe and beyond.*
 
 *This portfolio is actively growing — new projects and notebooks added regularly.*
