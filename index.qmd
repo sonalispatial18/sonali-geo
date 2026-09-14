@@ -5,7 +5,7 @@ title: ""
 <div class="hero-section">
 
 <div class="hero-photo-col">
-<img src="images/profile2.jpg" class="hero-photo" alt="Sonali Sharma"/>
+<img src="images/profile2.png" class="hero-photo" alt="Sonali Sharma"/>
 <div class="hero-links">
 <a href="mailto:sonali.sharma@web.de">📧 Email</a>
 <a href="https://www.linkedin.com/in/sonali-sharma-50220210b/">LinkedIn</a>
